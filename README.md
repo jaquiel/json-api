@@ -1,1 +1,1 @@
-# json-api
+# Fake API builded with json-api module

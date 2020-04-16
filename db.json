@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Coca-Cola"
+    },
+    {
+      "id": 2,
+      "name": "Fruki Guarana"
+    },
+    {
+      "name": "Pepsi",
+      "id": 3
+    }
+  ]
+}
