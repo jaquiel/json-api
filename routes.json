@@ -1,0 +1,4 @@
+{
+    "/cfops/:codigo": "/cfops?codigo=:codigo",  
+    "/secao/:num": "/secao?num=:num"
+}

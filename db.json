@@ -1,16 +1,1416 @@
 {
-  "products": [
+  "cfops": [
+    { "codigo":1000,"descricao":"ENTRADAS OU AQUISIÇÕES DE SERVIÇOS DO ESTADO"
+      },{ "codigo":1100,"descricao":"COMPRAS PARA INDUSTRIALIZAÇÃO, COMERCIALIZAÇÃO OU PRESTAÇÃO DE SERVIÇOS"
+      },{ "codigo":1101,"descricao":"Compra para industrialização ou produção rural"
+      },{ "codigo":1102,"descricao":"Compra para comercialização"
+      },{ "codigo":1111,"descricao":"Compra para industrialização de mercadoria recebida anteriormente em consignação industrial"
+      },{ "codigo":1113,"descricao":"Compra para comercialização, de mercadoria recebida anteriormente em consignação mercantil"
+      },{ "codigo":1116,"descricao":"Compra para industrialização ou produção rural originada de encomenda para recebimento futuro"
+      },{ "codigo":1117,"descricao":"Compra para comercialização originada de encomenda para recebimento futuro"
+      },{ "codigo":1118,"descricao":"Compra de mercadoria para comercialização pelo adquirente originário, entregue pelo vendedor remetente ao destinatário, em venda à ordem"
+      },{ "codigo":1120,"descricao":"Compra para industrialização, em venda à ordem, já recebida do vendedor remetente"
+      },{ "codigo":1121,"descricao":"Compra para comercialização, em venda à ordem, já recebida do vendedor remetente"
+      },{ "codigo":1122,"descricao":"Compra para industrialização em que a mercadoria foi remetida pelo fornecedor ao industrializador sem transitar pelo estabelecimento adquirente"
+      },{ "codigo":1124,"descricao":"Industrialização efetuada por outra empresa"
+      },{ "codigo":1125,"descricao":"Industrialização efetuada por outra empresa quando a mercadoria remetida para utilização no processo de industrialização não transitou pelo estabelecimento adquirente da mercadoria"
+      },{ "codigo":1126,"descricao":"compras para utilização na prestação de serviços sujeitas ao ICMS"
+      },{ "codigo":1128,"descricao":"compras para utilização na prestação de serviços sujeitas ao ISSQN"
+      },{ "codigo":1150,"descricao":"TRANSFERÊNCIAS PARA INDUSTRIALIZAÇÃO, COMERCIALIZAÇÃO OU PRESTAÇÃO DE SERVIÇOS"
+      },{ "codigo":1151,"descricao":"Transferência para industrialização ou produção rural"
+      },{ "codigo":1152,"descricao":"Transferência para comercialização"
+      },{ "codigo":1153,"descricao":"Transferência de energia elétrica para distribuição"
+      },{ "codigo":1154,"descricao":"Transferência para utilização na prestação de serviço"
+      },{ "codigo":1200,"descricao":"DEVOLUÇÕES DE VENDAS DE PRODUÇÃO PRÓPRIA, DE TERCEIROS OU ANULAÇÕES DE VALORES"
+      },{ "codigo":1201,"descricao":"Devolução de venda de produção do estabelecimento"
+      },{ "codigo":1202,"descricao":"Devolução de venda de mercadoria adquirida ou recebida de terceiros"
+      },{ "codigo":1203,"descricao":"Devolução de venda de produção do estabelecimento, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio"
+      },{ "codigo":1204,"descricao":"Devolução de venda de mercadoria adquirida ou recebida de terceiros, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio"
+      },{ "codigo":1205,"descricao":"Anulação de valor relativo à prestação de serviço de comunicação"
+      },{ "codigo":1206,"descricao":"Anulação de valor relativo à prestação de serviço de transporte"
+      },{ "codigo":1207,"descricao":"Anulação de valor relativo à venda de energia elétrica"
+      },{ "codigo":1208,"descricao":"Devolução de produção do estabelecimento, remetida em transferência"
+      },{ "codigo":1209,"descricao":"Devolução de mercadoria adquirida ou recebida de terceiros, remetida em transferência"
+      },{ "codigo":1250,"descricao":"COMPRAS DE ENERGIA ELÉTRICA"
+      },{ "codigo":1251,"descricao":"Compra de energia elétrica para distribuição ou comercialização"
+      },{ "codigo":1252,"descricao":"Compra de energia elétrica por estabelecimento industrial"
+      },{ "codigo":1253,"descricao":"Compra de energia elétrica por estabelecimento comercial"
+      },{ "codigo":1254,"descricao":"Compra de energia elétrica por estabelecimento prestador de serviço de transporte"
+      },{ "codigo":1255,"descricao":"Compra de energia elétrica por estabelecimento prestador de serviço de comunicação"
+      },{ "codigo":1256,"descricao":"Compra de energia elétrica por estabelecimento de produtor rural"
+      },{ "codigo":1257,"descricao":"Compra de energia elétrica para consumo por demanda contratada"
+      },{ "codigo":1300,"descricao":"AQUISIÇÕES DE SERVIÇOS DE COMUNICAÇÃO"
+      },{ "codigo":1301,"descricao":"Aquisição de serviço de comunicação para execução de serviço da mesma natureza"
+      },{ "codigo":1302,"descricao":"Aquisição de serviço de comunicação por estabelecimento industrial"
+      },{ "codigo":1303,"descricao":"Aquisição de serviço de comunicação por estabelecimento comercial"
+      },{ "codigo":1304,"descricao":"Aquisição de serviço de comunicação por estabelecimento de prestador de serviço de transporte"
+      },{ "codigo":1305,"descricao":"Aquisição de serviço de comunicação por estabelecimento de geradora ou de distribuidora de energia elétrica 1.306 - Aquisição de serviço de comunicação por estabelecimento de produtor rural"
+      },{ "codigo":1350,"descricao":"AQUISIÇÕES DE SERVIÇOS DE TRANSPORTE"
+      },{ "codigo":1351,"descricao":"Aquisição de serviço de transporte para execução de serviço da mesma natureza"
+      },{ "codigo":1352,"descricao":"Aquisição de serviço de transporte por estabelecimento industrial"
+      },{ "codigo":1353,"descricao":"Aquisição de serviço de transporte por estabelecimento comercial"
+      },{ "codigo":1354,"descricao":"Aquisição de serviço de transporte por estabelecimento de prestador de serviço de comunicação"
+      },{ "codigo":1355,"descricao":"Aquisição de serviço de transporte por estabelecimento de geradora ou de distribuidora de energia elétrica"
+      },{ "codigo":1356,"descricao":"Aquisição de serviço de transporte por estabelecimento de produtor rural"
+      },{ "codigo":1360,"descricao":"Aquisição de serviço de transporte por contribuinte substituto em relação ao serviço de transporte"
+      },{ "codigo":1400,"descricao":"ENTRADAS DE MERCADORIAS SUJEITAS AO REGIME DE SUBSTITUIÇÃO TRIBUTÁRIA"
+      },{ "codigo":1401,"descricao":"Compra para industrialização ou produção rural em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":1403,"descricao":"Compra para comercialização em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":1406,"descricao":"Compra de bem para o ativo imobilizado cuja mercadoria está sujeita ao regime de substituição tributária"
+      },{ "codigo":1407,"descricao":"Compra de mercadoria para uso ou consumo cuja mercadoria está sujeita ao regime de substituição tributária"
+      },{ "codigo":1408,"descricao":"Transferência para industrialização ou produção rural em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":1409,"descricao":"Transferência para comercialização em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":1410,"descricao":"Devolução de venda de produção do estabelecimento em operação com produto sujeito ao regime de substituição tributária"
+      },{ "codigo":1411,"descricao":"Devolução de venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária 1.414 - Retorno de produção do estabelecimento, remetida para venda fora do estabelecimento em operação com  produto sujeito ao regime de substituição tributária"
+      },{ "codigo":1415,"descricao":"Retorno de mercadoria adquirida ou recebida de terceiros, remetida para venda fora do estabelecimento em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":1450,"descricao":"SISTEMAS DE INTEGRAÇÃO"
+      },{ "codigo":1451,"descricao":"Retorno de animal do estabelecimento produtor"
+      },{ "codigo":1452,"descricao":"Retorno de insumo não utilizado na produção"
+      },{ "codigo":1500,"descricao":"ENTRADAS DE MERCADORIAS REMETIDAS COM FIM ESPECÍFICO DE EXPORTAÇÃO E EVENTUAIS DEVOLUÇÕES"
+      },{ "codigo":1501,"descricao":"Entrada de mercadoria recebida com fim específico de exportação"
+      },{ "codigo":1503,"descricao":"Entrada decorrente de devolução de produto remetido com fim específico de exportação, de produção do estabelecimento"
+      },{ "codigo":1504,"descricao":"Entrada decorrente de devolução de mercadoria remetida com fim específico de exportação, adquirida ou recebida de terceiros"
+      },{ "codigo":1505,"descricao":"Entrada decorrente de devolução simbólica de mercadorias remetidas para formação de lote de exportação, de produtos industrializados ou produzidos pelo próprio estabelecimento"
+      },{ "codigo":1506,"descricao":"Entrada decorrente de devolução simbólica de mercadorias, adquiridas ou recebidas de terceiros, remetidas para formação de lote de exportação"
+      },{ "codigo":1550,"descricao":"OPERAÇÕES COM BENS DE ATIVO IMOBILIZADO E MATERIAIS PARA USO OU CONSUMO"
+      },{ "codigo":1551,"descricao":"Compra de bem para o ativo imobilizado"
+      },{ "codigo":1552,"descricao":"Transferência de bem do ativo imobilizado"
+      },{ "codigo":1553,"descricao":"Devolução de venda de bem do ativo imobilizado"
+      },{ "codigo":1554,"descricao":"Retorno de bem do ativo imobilizado remetido para uso fora do estabelecimento"
+      },{ "codigo":1555,"descricao":"Entrada de bem do ativo imobilizado de terceiro, remetido para uso no estabelecimento"
+      },{ "codigo":1556,"descricao":"Compra de material para uso ou consumo"
+      },{ "codigo":1557,"descricao":"Transferência de material para uso ou consumo"
+      },{ "codigo":1600,"descricao":"CRÉDITOS E RESSARCIMENTOS DE ICMS"
+      },{ "codigo":1601,"descricao":"Recebimento, por transferência, de crédito de ICMS"
+      },{ "codigo":1602,"descricao":"Recebimento, por transferência, de saldo credor de ICMS de outro estabelecimento da mesma empresa, para compensação de saldo devedor de ICMS"
+      },{ "codigo":1603,"descricao":"Ressarcimento de ICMS retido por substituição tributária 1.604 - Lançamento do crédito relativo à compra de bem para o ativo imobilizado"
+      },{ "codigo":1605,"descricao":"Recebimento, por transferência, de saldo devedor de ICMS de outro estabelecimento da mesma empresa"
+      },{ "codigo":1652,"descricao":"Compra de combustível ou lubrificante para comercialização"
+      },{ "codigo":1653,"descricao":"Compra de combustível ou lubrificante por consumidor ou usuário final"
+      },{ "codigo":1658,"descricao":"Transferência de combustível e lubrificante para industrialização"
+      },{ "codigo":1659,"descricao":"Transferência de combustível e lubrificante para comercialização"
+      },{ "codigo":1660,"descricao":"Devolução de venda de combustível ou lubrificante destinado à industrialização subseqüente"
+      },{ "codigo":1661,"descricao":"Devolução de venda de combustível ou lubrificante destinado à comercialização"
+      },{ "codigo":1662,"descricao":"Devolução de venda de combustível ou lubrificante destinado a consumidor ou usuário final"
+      },{ "codigo":1663,"descricao":"Entrada de combustível ou lubrificante para armazenagem"
+      },{ "codigo":1664,"descricao":"Retorno de combustível ou lubrificante remetido para armazenagem"
+      },{ "codigo":1900,"descricao":"OUTRAS ENTRADAS DE MERCADORIAS OU AQUISIÇÕES DE SERVIÇOS"
+      },{ "codigo":1901,"descricao":"Entrada para industrialização por encomenda"
+      },{ "codigo":1902,"descricao":"Retorno de mercadoria remetida para industrialização por encomenda"
+      },{ "codigo":1903,"descricao":"Entrada de mercadoria remetida para industrialização e não aplicada no referido processo"
+      },{ "codigo":1904,"descricao":"Retorno de remessa para venda fora do estabelecimento"
+      },{ "codigo":1905,"descricao":"Entrada de mercadoria recebida para depósito em depósito fechado ou armazém geral"
+      },{ "codigo":1906,"descricao":"Retorno de mercadoria remetida para depósito fechado ou armazém geral"
+      },{ "codigo":1907,"descricao":"Retorno simbólico de mercadoria remetida para depósito fechado ou armazém geral"
+      },{ "codigo":1908,"descricao":"Entrada de bem por conta de contrato de comodato"
+      },{ "codigo":1909,"descricao":"Retorno de bem remetido por conta de contrato de comodato"
+      },{ "codigo":1910,"descricao":"Entrada de bonificação, doação ou brinde"
+      },{ "codigo":1911,"descricao":"Entrada de amostra grátis"
+      },{ "codigo":1912,"descricao":"Entrada de mercadoria ou bem recebido para demonstração"
+      },{ "codigo":1913,"descricao":"Retorno de mercadoria ou bem remetido para demonstração"
+      },{ "codigo":1914,"descricao":"Retorno de mercadoria ou bem remetido para exposição ou feira"
+      },{ "codigo":1915,"descricao":"Entrada de mercadoria ou bem recebido para conserto ou reparo"
+      },{ "codigo":1916,"descricao":"Retorno de mercadoria ou bem remetido para conserto ou reparo"
+      },{ "codigo":1917,"descricao":"Entrada de mercadoria recebida em consignação mercantil ou industrial"
+      },{ "codigo":1918,"descricao":"Devolução de mercadoria remetida em consignação mercantil ou industrial"
+      },{ "codigo":1919,"descricao":"Devolução simbólica de mercadoria vendida ou utilizada em processo industrial, remetida anteriormente em consignação mercantil ou industrial"
+      },{ "codigo":1920,"descricao":"Entrada de vasilhame ou sacaria"
+      },{ "codigo":1921,"descricao":"Retorno de vasilhame ou sacaria"
+      },{ "codigo":1922,"descricao":"Lançamento efetuado a título de simples faturamento decorrente de compra para recebimento futuro"
+      },{ "codigo":1923,"descricao":"Entrada de mercadoria recebida do vendedor remetente, em venda à ordem"
+      },{ "codigo":1924,"descricao":"Entrada para industrialização por conta e ordem do adquirente da mercadoria, quando esta não transitar pelo estabelecimento do adquirente"
+      },{ "codigo":1925,"descricao":"Retorno de mercadoria remetida para industrialização por conta e ordem do adquirente da mercadoria, quando esta não transitar pelo estabelecimento do adquirente"
+      },{ "codigo":1926,"descricao":"Lançamento efetuado a título de reclassificação de mercadoria decorrente de formação de kit ou de sua desagregação"
+      },{ "codigo":1931,"descricao":"Lançamento efetuado pelo tomador do serviço de transporte quando a responsabilidade de retenção do imposto for atribuída ao remetente ou alienante da mercadoria, pelo serviço de transporte realizado por transportador autônomo ou por transportador não inscrito na unidade da Federação onde iniciado o serviço"
+      },{ "codigo":1932,"descricao":"Aquisição de serviço de transporte iniciado em unidade da Federação diversa daquela onde inscrito o prestador"
+      },{ "codigo":1933,"descricao":"Aquisição de serviço tributado pelo ISSQN"
+      },{ "codigo":1949,"descricao":"Outra entrada de mercadoria ou prestação de serviço não especificada"
+      },{ "codigo":2000,"descricao":"ENTRADAS OU AQUISIÇÕES DE SERVIÇOS DE OUTROS ESTADOS"
+      },{ "codigo":2100,"descricao":"COMPRAS PARA INDUSTRIALIZAÇÃO, COMERCIALIZAÇÃO OU PRESTAÇÃO DE SERVIÇOS"
+      },{ "codigo":2101,"descricao":"Compra para industrialização ou produção rural"
+      },{ "codigo":2102,"descricao":"Compra para comercialização"
+      },{ "codigo":2111,"descricao":"Compra para industrialização de mercadoria recebida anteriormente em consignação industrial"
+      },{ "codigo":2113,"descricao":"Compra para comercialização, de mercadoria recebida anteriormente em consignação mercantil"
+      },{ "codigo":2116,"descricao":"Compra para industrialização ou produção rural originada de encomenda para recebimento futuro"
+      },{ "codigo":2117,"descricao":"Compra para comercialização originada de encomenda para recebimento futuro"
+      },{ "codigo":2118,"descricao":"Compra de mercadoria para comercialização pelo adquirente originário, entregue pelo vendedor remetente ao destinatário, em venda à ordem"
+      },{ "codigo":2120,"descricao":"Compra para industrialização, em venda à ordem, já recebida do vendedor remetente 2.121 - Compra para comercialização, em venda à ordem, já recebida do vendedor remetente"
+      },{ "codigo":2122,"descricao":"Compra para industrialização em que a mercadoria foi remetida pelo fornecedor ao industrializador sem transitar pelo estabelecimento adquirente"
+      },{ "codigo":2124,"descricao":"Industrialização efetuada por outra empresa"
+      },{ "codigo":2125,"descricao":"Industrialização efetuada por outra empresa quando a mercadoria remetida para utilização no processo de industrialização não transitou pelo estabelecimento adquirente da mercadoria"
+      },{ "codigo":2126,"descricao":"Compra para utilização na prestação de serviço"
+      },{ "codigo":2150,"descricao":"TRANSFERÊNCIAS PARA INDUSTRIALIZAÇÃO, COMERCIALIZAÇÃO OU PRESTAÇÃO DE SERVIÇOS"
+      },{ "codigo":2151,"descricao":"Transferência para industrialização ou produção rural"
+      },{ "codigo":2152,"descricao":"Transferência para comercialização"
+      },{ "codigo":2153,"descricao":"Transferência de energia elétrica para distribuição"
+      },{ "codigo":2154,"descricao":"Transferência para utilização na prestação de serviço"
+      },{ "codigo":2200,"descricao":"DEVOLUÇÕES DE VENDAS DE PRODUÇÃO PRÓPRIA, DE TERCEIROS OU ANULAÇÕES DE VALORES"
+      },{ "codigo":2201,"descricao":"Devolução de venda de produção do estabelecimento"
+      },{ "codigo":2202,"descricao":"Devolução de venda de mercadoria adquirida ou recebida de terceiros"
+      },{ "codigo":2203,"descricao":"Devolução de venda de produção do estabelecimento, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio"
+      },{ "codigo":2204,"descricao":"Devolução de venda de mercadoria adquirida ou recebida de terceiros, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio"
+      },{ "codigo":2205,"descricao":"Anulação de valor relativo à prestação de serviço de comunicação"
+      },{ "codigo":2206,"descricao":"Anulação de valor relativo à prestação de serviço de transporte"
+      },{ "codigo":2207,"descricao":"Anulação de valor relativo à venda de energia elétrica"
+      },{ "codigo":2208,"descricao":"Devolução de produção do estabelecimento, remetida em transferência"
+      },{ "codigo":2209,"descricao":"Devolução de mercadoria adquirida ou recebida de terceiros, remetida em transferência "
+      },{ "codigo":2250,"descricao":"COMPRAS DE ENERGIA ELÉTRICA"
+      },{ "codigo":2251,"descricao":"Compra de energia elétrica para distribuição ou comercialização"
+      },{ "codigo":2252,"descricao":"Compra de energia elétrica por estabelecimento industrial"
+      },{ "codigo":2253,"descricao":"Compra de energia elétrica por estabelecimento comercial"
+      },{ "codigo":2254,"descricao":"Compra de energia elétrica por estabelecimento prestador de serviço de transporte"
+      },{ "codigo":2255,"descricao":"Compra de energia elétrica por estabelecimento prestador de serviço de comunicação"
+      },{ "codigo":2256,"descricao":"Compra de energia elétrica por estabelecimento de produtor rural"
+      },{ "codigo":2257,"descricao":"Compra de energia elétrica para consumo por demanda contratada"
+      },{ "codigo":2300,"descricao":"AQUISIÇÕES DE SERVIÇOS DE COMUNICAÇÃO"
+      },{ "codigo":2301,"descricao":"Aquisição de serviço de comunicação para execução de serviço da mesma natureza"
+      },{ "codigo":2302,"descricao":"Aquisição de serviço de comunicação por estabelecimento industrial"
+      },{ "codigo":2303,"descricao":"Aquisição de serviço de comunicação por estabelecimento comercial"
+      },{ "codigo":2304,"descricao":"Aquisição de serviço de comunicação por estabelecimento de prestador de serviço de transporte"
+      },{ "codigo":2305,"descricao":"Aquisição de serviço de comunicação por estabelecimento de geradora ou de distribuidora de energia elétrica"
+      },{ "codigo":2306,"descricao":"Aquisição de serviço de comunicação por estabelecimento de produtor rural"
+      },{ "codigo":2351,"descricao":"Aquisição de serviço de transporte para execução de serviço da mesma natureza"
+      },{ "codigo":2352,"descricao":"Aquisição de serviço de transporte por estabelecimento industrial"
+      },{ "codigo":2353,"descricao":"Aquisição de serviço de transporte por estabelecimento comercial"
+      },{ "codigo":2354,"descricao":"Aquisição de serviço de transporte por estabelecimento de prestador de serviço de comunicação"
+      },{ "codigo":2355,"descricao":"Aquisição de serviço de transporte por estabelecimento de geradora ou de distribuidora de energia elétrica"
+      },{ "codigo":2356,"descricao":"Aquisição de serviço de transporte por estabelecimento de produtor rural"
+      },{ "codigo":2400,"descricao":"ENTRADAS DE MERCADORIAS SUJEITAS AO REGIME DE SUBSTITUIÇÃO TRIBUTÁRIA"
+      },{ "codigo":2401,"descricao":"Compra para industrialização ou produção rural em operação com mercadoria sujeita ao regime desubstituição tributária"
+      },{ "codigo":2403,"descricao":"Compra para comercialização em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":2406,"descricao":"Compra de bem para o ativo imobilizado cuja mercadoria está sujeita ao regime de substituição tributária"
+      },{ "codigo":2407,"descricao":"Compra de mercadoria para uso ou consumo cuja mercadoria está sujeita ao regime de substituição tributária"
+      },{ "codigo":2408,"descricao":"Transferência para industrialização ou produção rural em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":2409,"descricao":"Transferência para comercialização em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":2410,"descricao":"Devolução de venda de produção do estabelecimento em operação com produto sujeito ao regime desubstituição tributária"
+      },{ "codigo":2411,"descricao":"Devolução de venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":2414,"descricao":"Retorno de produção do estabelecimento, remetida para venda fora do estabelecimento em operação com produto sujeito ao regime de substituição tributária"
+      },{ "codigo":2415,"descricao":"Retorno de mercadoria adquirida ou recebida de terceiros, remetida para venda fora do estabelecimento em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":2500,"descricao":"ENTRADAS DE MERCADORIAS REMETIDAS COM FIM ESPECÍFICO DE EXPORTAÇÃO E EVENTUAIS DEVOLUÇÕES"
+      },{ "codigo":2501,"descricao":"Entrada de mercadoria recebida com fim específico de exportação"
+      },{ "codigo":2503,"descricao":"Entrada decorrente de devolução de produto remetido com fim específico de exportação, de produção do estabelecimento"
+      },{ "codigo":2504,"descricao":"Entrada decorrente de devolução de mercadoria remetida com fim específico de exportação, adquirida ou recebida de terceiros"
+      },{ "codigo":2505,"descricao":"Entrada decorrente de devolução simbólica de mercadorias remetidas para formação de lote de exportação, de produtos industrializados ou produzidos pelo próprio estabelecimento"
+      },{ "codigo":2506,"descricao":"Entrada decorrente de devolução simbólica de mercadorias, adquiridas ou recebidas de terceiros, remetidas para formação de lote de exportação"
+      },{ "codigo":2550,"descricao":"OPERAÇÕES COM BENS DE ATIVO IMOBILIZADO E MATERIAIS PARA USO OU CONSUMO"
+      },{ "codigo":2551,"descricao":"Compra de bem para o ativo imobilizado"
+      },{ "codigo":2552,"descricao":"Transferência de bem do ativo imobilizado"
+      },{ "codigo":2553,"descricao":"Devolução de venda de bem do ativo imobilizado"
+      },{ "codigo":2554,"descricao":"Retorno de bem do ativo imobilizado remetido para uso fora do estabelecimento"
+      },{ "codigo":2555,"descricao":"Entrada de bem do ativo imobilizado de terceiro, remetido para uso no estabelecimento"
+      },{ "codigo":2556,"descricao":"Compra de material para uso ou consumo"
+      },{ "codigo":2557,"descricao":"Transferência de material para uso ou consumo"
+      },{ "codigo":2600,"descricao":"CRÉDITOS E RESSARCIMENTOS DE ICMS"
+      },{ "codigo":2603,"descricao":"Ressarcimento de ICMS retido por substituição tributária"
+      },{ "codigo":2651,"descricao":"Compra de combustível ou lubrificante para industrialização subseqüente"
+      },{ "codigo":2652,"descricao":"Compra de combustível ou lubrificante para comercialização"
+      },{ "codigo":2653,"descricao":"Compra de combustível ou lubrificante por consumidor ou usuário final"
+      },{ "codigo":2658,"descricao":"Transferência de combustível e lubrificante para industrialização"
+      },{ "codigo":2659,"descricao":"Transferência de combustível e lubrificante para comercialização"
+      },{ "codigo":2660,"descricao":"Devolução de venda de combustível ou lubrificante destinado à industrialização subseqüente"
+      },{ "codigo":2661,"descricao":"Devolução de venda de combustível ou lubrificante destinado à comercialização"
+      },{ "codigo":2662,"descricao":"Devolução de venda de combustível ou lubrificante destinado a consumidor ou usuário final"
+      },{ "codigo":2663,"descricao":"Entrada de combustível ou lubrificante para armazenagem"
+      },{ "codigo":2664,"descricao":"Retorno de combustível ou lubrificante remetido para armazenagem "
+      },{ "codigo":2900,"descricao":"OUTRAS ENTRADAS DE MERCADORIAS OU AQUISIÇÕES DE SERVIÇOS"
+      },{ "codigo":2901,"descricao":"Entrada para industrialização por encomenda"
+      },{ "codigo":2902,"descricao":"Retorno de mercadoria remetida para industrialização por encomenda"
+      },{ "codigo":2903,"descricao":"Entrada de mercadoria remetida para industrialização e não aplicada no referido processo"
+      },{ "codigo":2904,"descricao":"Retorno de remessa para venda fora do estabelecimento"
+      },{ "codigo":2905,"descricao":"Entrada de mercadoria recebida para depósito em depósito fechado ou armazém geral"
+      },{ "codigo":2906,"descricao":"Retorno de mercadoria remetida para depósito fechado ou armazém geral"
+      },{ "codigo":2907,"descricao":"Retorno simbólico de mercadoria remetida para depósito fechado ou armazém geral"
+      },{ "codigo":2908,"descricao":"Entrada de bem por conta de contrato de comodato"
+      },{ "codigo":2909,"descricao":"Retorno de bem remetido por conta de contrato de comodato"
+      },{ "codigo":2910,"descricao":"Entrada de bonificação, doação ou brinde"
+      },{ "codigo":2911,"descricao":"Entrada de amostra grátis"
+      },{ "codigo":2912,"descricao":"Entrada de mercadoria ou bem recebido para demonstração"
+      },{ "codigo":2913,"descricao":"Retorno de mercadoria ou bem remetido para demonstração"
+      },{ "codigo":2914,"descricao":"Retorno de mercadoria ou bem remetido para exposição ou feira"
+      },{ "codigo":2915,"descricao":"Entrada de mercadoria ou bem recebido para conserto ou reparo"
+      },{ "codigo":2916,"descricao":"Retorno de mercadoria ou bem remetido para conserto ou reparo"
+      },{ "codigo":2917,"descricao":"Entrada de mercadoria recebida em consignação mercantil ou industrial"
+      },{ "codigo":2918,"descricao":"Devolução de mercadoria remetida em consignação mercantil ou industrial"
+      },{ "codigo":2919,"descricao":"Devolução simbólica de mercadoria vendida ou utilizada em processo industrial, remetida anteriormente em consignação mercantil ou industrial"
+      },{ "codigo":2920,"descricao":"Entrada de vasilhame ou sacaria"
+      },{ "codigo":2921,"descricao":"Retorno de vasilhame ou sacaria"
+      },{ "codigo":2922,"descricao":"Lançamento efetuado a título de simples faturamento decorrente de compra para recebimento futuro"
+      },{ "codigo":2923,"descricao":"Entrada de mercadoria recebida do vendedor remetente, em venda à ordem"
+      },{ "codigo":2924,"descricao":"Entrada para industrialização por conta e ordem do adquirente da mercadoria, quando esta não transitar pelo estabelecimento do adquirente"
+      },{ "codigo":2925,"descricao":"Retorno de mercadoria remetida para industrialização por conta e ordem do adquirente da mercadoria, quando esta não transitar pelo estabelecimento do adquirente"
+      },{ "codigo":2931,"descricao":"Lançamento efetuado pelo tomador do serviço de transporte quando a responsabilidade de retenção do imposto for atribuída ao remetente ou alienante da mercadoria, pelo serviço de transporte realizado por transportador autônomo ou por transportador não inscrito na unidade da Federação onde iniciado o serviço"
+      },{ "codigo":2932,"descricao":"Aquisição de serviço de transporte iniciado em unidade da Federação diversa daquela onde inscrito o prestador"
+      },{ "codigo":2933,"descricao":"Aquisição de serviço tributado pelo ISSQN"
+      },{ "codigo":2949,"descricao":"Outra entrada de mercadoria ou prestação de serviço não especificado "
+      },{ "codigo":3000,"descricao":"ENTRADAS OU AQUISIÇÕES DE SERVIÇOS DO EXTERIOR "
+      },{ "codigo":3100,"descricao":"COMPRAS PARA INDUSTRIALIZAÇÃO, COMERCIALIZAÇÃO OU PRESTAÇÃO DE SERVIÇOS"
+      },{ "codigo":3101,"descricao":"Compra para industrialização ou produção rural"
+      },{ "codigo":3102,"descricao":"Compra para comercialização"
+      },{ "codigo":3126,"descricao":"Compra para utilização na prestação de serviço"
+      },{ "codigo":3127,"descricao":"Compra para industrialização sob o regime de drawback "
+      },{ "codigo":3200,"descricao":"DEVOLUÇÕES DE VENDAS DE PRODUÇÃO PRÓPRIA, DE TERCEIROS OU ANULAÇÕES DE VALORES"
+      },{ "codigo":3201,"descricao":"Devolução de venda de produção do estabelecimento"
+      },{ "codigo":3202,"descricao":"Devolução de venda de mercadoria adquirida ou recebida de terceiros"
+      },{ "codigo":3205,"descricao":"Anulação de valor relativo à prestação de serviço de comunicação"
+      },{ "codigo":3206,"descricao":"Anulação de valor relativo à prestação de serviço de transporte"
+      },{ "codigo":3207,"descricao":"Anulação de valor relativo à venda de energia elétrica"
+      },{ "codigo":3211,"descricao":"Devolução de venda de produção do estabelecimento sob o regime de drawback "
+      },{ "codigo":3250,"descricao":"COMPRAS DE ENERGIA ELÉTRICA"
+      },{ "codigo":3251,"descricao":"Compra de energia elétrica para distribuição ou comercialização "
+      },{ "codigo":3300,"descricao":"AQUISIÇÕES DE SERVIÇOS DE COMUNICAÇÃO"
+      },{ "codigo":3301,"descricao":"Aquisição de serviço de comunicação para execução de serviço da mesma natureza "
+      },{ "codigo":3350,"descricao":"AQUISIÇÕES DE SERVIÇOS DE TRANSPORTE"
+      },{ "codigo":3351,"descricao":"Aquisição de serviço de transporte para execução de serviço da mesma natureza"
+      },{ "codigo":3352,"descricao":"Aquisição de serviço de transporte por estabelecimento industrial"
+      },{ "codigo":3353,"descricao":"Aquisição de serviço de transporte por estabelecimento comercial"
+      },{ "codigo":3354,"descricao":"Aquisição de serviço de transporte por estabelecimento de prestador de serviço de comunicação"
+      },{ "codigo":3355,"descricao":"Aquisição de serviço de transporte por estabelecimento de geradora ou de distribuidora de energia elétrica"
+      },{ "codigo":3356,"descricao":"Aquisição de serviço de transporte por estabelecimento de produtor rural "
+      },{ "codigo":3500,"descricao":"ENTRADAS DE MERCADORIAS REMETIDAS COM FIM ESPECÍFICO DE EXPORTAÇÃO E EVENTUAIS DEVOLUÇÕES"
+      },{ "codigo":3503,"descricao":"Devolução de mercadoria exportada que tenha sido recebida com fim específico de exportação "
+      },{ "codigo":3550,"descricao":"OPERAÇÕES COM BENS DE ATIVO IMOBILIZADO E MATERIAIS PARA USO OU CONSUMO"
+      },{ "codigo":3551,"descricao":"Compra de bem para o ativo imobilizado"
+      },{ "codigo":3553,"descricao":"Devolução de venda de bem do ativo imobilizado"
+      },{ "codigo":3556,"descricao":"Compra de material para uso ou consumo"
+      },{ "codigo":3651,"descricao":"Compra de combustível ou lubrificante para industrialização subseqüente"
+      },{ "codigo":3652,"descricao":"Compra de combustível ou lubrificante para comercialização"
+      },{ "codigo":3653,"descricao":"Compra de combustível ou lubrificante por consumidor ou usuário final "
+      },{ "codigo":3900,"descricao":"OUTRAS ENTRADAS DE MERCADORIAS OU AQUISIÇÕES DE SERVIÇOS"
+      },{ "codigo":3930,"descricao":"Lançamento efetuado a título de entrada de bem sob amparo de regime especial aduaneiro de admissão temporária"
+      },{ "codigo":3949,"descricao":"Outra entrada de mercadoria ou prestação de serviço não especificado "
+      },{ "codigo":5000,"descricao":"SAÍDAS OU PRESTAÇÕES DE SERVIÇOS PARA O ESTADO "
+      },{ "codigo":5100,"descricao":"VENDAS DE PRODUÇÃO PRÓPRIA OU DE TERCEIROS"
+      },{ "codigo":5101,"descricao":"Venda de produção do estabelecimento"
+      },{ "codigo":5102,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros"
+      },{ "codigo":5103,"descricao":"Venda de produção do estabelecimento, efetuada fora do estabelecimento"
+      },{ "codigo":5104,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros, efetuada fora do estabelecimento"
+      },{ "codigo":5105,"descricao":"Venda de produção do estabelecimento que não deva por ele transitar"
+      },{ "codigo":5106,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar"
+      },{ "codigo":5109,"descricao":"Venda de produção do estabelecimento, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio"
+      },{ "codigo":5110,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio"
+      },{ "codigo":5111,"descricao":"Venda de produção do estabelecimento remetida anteriormente em consignação industrial"
+      },{ "codigo":5112,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação industrial"
+      },{ "codigo":5113,"descricao":"Venda de produção do estabelecimento remetida anteriormente em consignação mercantil"
+      },{ "codigo":5114,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação mercantil"
+      },{ "codigo":5115,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros, recebida anteriormente em consignação mercantil"
+      },{ "codigo":5116,"descricao":"Venda de produção do estabelecimento originada de encomenda para entrega futura"
+      },{ "codigo":5117,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros, originada de encomenda para entrega futura"
+      },{ "codigo":5118,"descricao":"Venda de produção do estabelecimento entregue ao destinatário por conta e ordem do adquirente originário, em venda à ordem"
+      },{ "codigo":5119,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário por conta e ordem do adquirente originário, em venda à ordem"
+      },{ "codigo":5120,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário pelo vendedor remetente, em venda à ordem"
+      },{ "codigo":5122,"descricao":"Venda de produção do estabelecimento remetida para industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente"
+      },{ "codigo":5123,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros remetida para industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente"
+      },{ "codigo":5124,"descricao":"Industrialização efetuada para outra empresa"
+      },{ "codigo":5125,"descricao":"Industrialização efetuada para outra empresa quando a mercadoria recebida para utilização no processo de industrialização não transitar pelo estabelecimento adquirente da mercadoria"
+      },{ "codigo":5150,"descricao":"TRANSFERÊNCIAS DE PRODUÇÃO PRÓPRIA OU DE TERCEIROS"
+      },{ "codigo":5151,"descricao":"Transferência de produção do estabelecimento"
+      },{ "codigo":5152,"descricao":"Transferência de mercadoria adquirida ou recebida de terceiros"
+      },{ "codigo":5153,"descricao":"Transferência de energia elétrica"
+      },{ "codigo":5155,"descricao":"Transferência de produção do estabelecimento, que não deva por ele transitar"
+      },{ "codigo":5156,"descricao":"Transferência de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar"
+      },{ "codigo":5200,"descricao":"DEVOLUÇÕES DE COMPRAS PARA INDUSTRIALIZAÇÃO, COMERCIALIZAÇÃO OU ANULAÇÕES DE VALORES"
+      },{ "codigo":5201,"descricao":"Devolução de compra para industrialização ou produção rural"
+      },{ "codigo":5202,"descricao":"Devolução de compra para comercialização"
+      },{ "codigo":5205,"descricao":"Anulação de valor relativo a aquisição de serviço de comunicação"
+      },{ "codigo":5206,"descricao":"Anulação de valor relativo a aquisição de serviço de transporte"
+      },{ "codigo":5207,"descricao":"Anulação de valor relativo à compra de energia elétrica"
+      },{ "codigo":5208,"descricao":"Devolução de mercadoria recebida em transferência para industrialização ou produção rural"
+      },{ "codigo":5209,"descricao":"Devolução de mercadoria recebida em transferência para comercialização"
+      },{ "codigo":5210,"descricao":"Devolução de compra para utilização na prestação de serviço sujeitas ao ICMS ou ISSQN"
+      },{ "codigo":5250,"descricao":"VENDAS DE ENERGIA ELÉTRICA"
+      },{ "codigo":5251,"descricao":"Venda de energia elétrica para distribuição ou comercialização"
+      },{ "codigo":5252,"descricao":"Venda de energia elétrica para estabelecimento industrial"
+      },{ "codigo":5253,"descricao":"Venda de energia elétrica para estabelecimento comercial"
+      },{ "codigo":5254,"descricao":"Venda de energia elétrica para estabelecimento prestador de serviço de transporte"
+      },{ "codigo":5255,"descricao":"Venda de energia elétrica para estabelecimento prestador de serviço de comunicação"
+      },{ "codigo":5256,"descricao":"Venda de energia elétrica para estabelecimento de produtor rural"
+      },{ "codigo":5257,"descricao":"Venda de energia elétrica para consumo por demanda contratada"
+      },{ "codigo":5258,"descricao":"Venda de energia elétrica a não contribuinte "
+      },{ "codigo":5300,"descricao":"PRESTAÇÕES DE SERVIÇOS DE COMUNICAÇÃO"
+      },{ "codigo":5301,"descricao":"Prestação de serviço de comunicação para execução de serviço da mesma natureza"
+      },{ "codigo":5302,"descricao":"Prestação de serviço de comunicação a estabelecimento industrial"
+      },{ "codigo":5303,"descricao":"Prestação de serviço de comunicação a estabelecimento comercial"
+      },{ "codigo":5304,"descricao":"Prestação de serviço de comunicação a estabelecimento de prestador de serviço de transporte"
+      },{ "codigo":5305,"descricao":"Prestação de serviço de comunicação a estabelecimento de geradora ou de distribuidora de energia elétrica"
+      },{ "codigo":5306,"descricao":"Prestação de serviço de comunicação a estabelecimento de produtor rural"
+      },{ "codigo":5307,"descricao":"Prestação de serviço de comunicação a não contribuinte "
+      },{ "codigo":5350,"descricao":"PRESTAÇÕES DE SERVIÇOS DE TRANSPORTE"
+      },{ "codigo":5351,"descricao":"Prestação de serviço de transporte para execução de serviço da mesma natureza"
+      },{ "codigo":5352,"descricao":"Prestação de serviço de transporte a estabelecimento industrial"
+      },{ "codigo":5353,"descricao":"Prestação de serviço de transporte a estabelecimento comercial"
+      },{ "codigo":5354,"descricao":"Prestação de serviço de transporte a estabelecimento de prestador de serviço de comunicação"
+      },{ "codigo":5355,"descricao":"Prestação de serviço de transporte a estabelecimento de geradora ou de distribuidora de energia elétrica"
+      },{ "codigo":5356,"descricao":"Prestação de serviço de transporte a estabelecimento de produtor rural"
+      },{ "codigo":5357,"descricao":"Prestação de serviço de transporte a não contribuinte"
+      },{ "codigo":5359,"descricao":"Prestação de serviço de transporte a contribuinte ou a não contribuinte quando a mercadoria transportada está dispensada de emissão de nota fiscal"
+      },{ "codigo":5360,"descricao":"Prestação de serviço de transporte a contribuinte substituto em relação ao serviço de transporte"
+      },{ "codigo":5400,"descricao":"SAÍDAS DE MERCADORIAS SUJEITAS AO REGIME DE SUBSTITUIÇÃO TRIBUTÁRIA"
+      },{ "codigo":5401,"descricao":"Venda de produção do estabelecimento em operação com produto sujeito ao regime de substituição tributária, na condição de contribuinte substituto"
+      },{ "codigo":5402,"descricao":"Venda de produção do estabelecimento de produto sujeito ao regime de substituição tributária, em operação entre contribuintes substitutos do mesmo produto"
+      },{ "codigo":5403,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária, na condição de contribuinte substituto"
+      },{ "codigo":5405,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária, na condição de contribuinte substituído"
+      },{ "codigo":5408,"descricao":"Transferência de produção do estabelecimento em operação com produto sujeito ao regime de substituição tributária"
+      },{ "codigo":5409,"descricao":"Transferência de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":5410,"descricao":"Devolução de compra para industrialização ou produção rural em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":5411,"descricao":"Devolução de compra para comercialização em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":5412,"descricao":"Devolução de bem do ativo imobilizado, em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":5413,"descricao":"Devolução de mercadoria destinada ao uso ou consumo, em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":5414,"descricao":"Remessa de produção do estabelecimento para venda fora do estabelecimento em operação com produto sujeito ao regime de substituição tributária"
+      },{ "codigo":5415,"descricao":"Remessa de mercadoria adquirida ou recebida de terceiros para venda fora do estabelecimento, em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":5450,"descricao":"SISTEMAS DE INTEGRAÇÃO"
+      },{ "codigo":5451,"descricao":"Remessa de animal e de insumo para estabelecimento produtor"
+      },{ "codigo":5500,"descricao":"REMESSAS COM FIM ESPECÍFICO DE EXPORTAÇÃO E EVENTUAIS DEVOLUÇÕES"
+      },{ "codigo":5501,"descricao":"Remessa de produção do estabelecimento, com fim específico de exportação 5.502 - Remessa de mercadoria adquirida ou recebida de terceiros, com fim específico de exportação"
+      },{ "codigo":5503,"descricao":"Devolução de mercadoria recebida com fim específico de exportação"
+      },{ "codigo":5504,"descricao":"Remessa de mercadorias para formação de lote de exportação, de produtos industrializados ou produzidos pelo próprio estabelecimento"
+      },{ "codigo":5505,"descricao":"Remessa de mercadorias, adquiridas ou recebidas de terceiros, para formação de lote de exportação "
+      },{ "codigo":5550,"descricao":"OPERAÇÕES COM BENS DE ATIVO IMOBILIZADO E MATERIAIS PARA USO OU CONSUMO"
+      },{ "codigo":5551,"descricao":"Venda de bem do ativo imobilizado"
+      },{ "codigo":5552,"descricao":"Transferência de bem do ativo imobilizado"
+      },{ "codigo":5553,"descricao":"Devolução de compra de bem para o ativo imobilizado"
+      },{ "codigo":5554,"descricao":"Remessa de bem do ativo imobilizado para uso fora do estabelecimento"
+      },{ "codigo":5555,"descricao":"Devolução de bem do ativo imobilizado de terceiro, recebido para uso no estabelecimento"
+      },{ "codigo":5556,"descricao":"Devolução de compra de material de uso ou consumo"
+      },{ "codigo":5557,"descricao":"Transferência de material de uso ou consumo"
+      },{ "codigo":5600,"descricao":"CRÉDITOS E RESSARCIMENTOS DE ICMS"
+      },{ "codigo":5601,"descricao":"Transferência de crédito de ICMS acumulado"
+      },{ "codigo":5602,"descricao":"Transferência de saldo credor de ICMS para outro estabelecimento da mesma empresa, destinado à compensação de saldo devedor de ICMS"
+      },{ "codigo":5603,"descricao":"Ressarcimento de ICMS retido por substituição tributária"
+      },{ "codigo":5605,"descricao":"Transferência de saldo devedor de ICMS de outro estabelecimento da mesma empresa"
+      },{ "codigo":5606,"descricao":"Utilização de saldo credor de ICMS para extinção por compensação de débitos fiscais"
+      },{ "codigo":5651,"descricao":"Venda de combustível ou lubrificante de produção do estabelecimento destinado à industrialização subseqüente"
+      },{ "codigo":5652,"descricao":"Venda de combustível ou lubrificante de produção do estabelecimento destinado à comercialização"
+      },{ "codigo":5653,"descricao":"Venda de combustível ou lubrificante de produção do estabelecimento destinado a consumidor ou usuário final"
+      },{ "codigo":5654,"descricao":"Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado à industrialização subseqüente"
+      },{ "codigo":5655,"descricao":"Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado à comercialização"
+      },{ "codigo":5656,"descricao":"Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado a consumidor ou usuário final"
+      },{ "codigo":5657,"descricao":"Remessa de combustível ou lubrificante adquirido ou recebido de terceiros para venda fora do estabelecimento"
+      },{ "codigo":5658,"descricao":"Transferência de combustível ou lubrificante de produção do estabelecimento"
+      },{ "codigo":5659,"descricao":"Transferência de combustível ou lubrificante adquirido ou recebido de terceiro"
+      },{ "codigo":5660,"descricao":"Devolução de compra de combustível ou lubrificante adquirido para industrialização subseqüente"
+      },{ "codigo":5661,"descricao":"Devolução de compra de combustível ou lubrificante adquirido para comercialização"
+      },{ "codigo":5662,"descricao":"Devolução de compra de combustível ou lubrificante adquirido por consumidor ou usuário final"
+      },{ "codigo":5663,"descricao":"Remessa para armazenagem de combustível ou lubrificante"
+      },{ "codigo":5664,"descricao":"Retorno de combustível ou lubrificante recebido para armazenagem"
+      },{ "codigo":5665,"descricao":"Retorno simbólico de combustível ou lubrificante recebido para armazenagem"
+      },{ "codigo":5666,"descricao":"Remessa por conta e ordem de terceiros de combustível ou lubrificante recebido para armazenagem "
+      },{ "codigo":5900,"descricao":"OUTRAS SAÍDAS DE MERCADORIAS OU PRESTAÇÕES DE SERVIÇOS"
+      },{ "codigo":5901,"descricao":"Remessa para industrialização por encomenda"
+      },{ "codigo":5902,"descricao":"Retorno de mercadoria utilizada na industrialização por encomenda"
+      },{ "codigo":5903,"descricao":"Retorno de mercadoria recebida para industrialização e não aplicada no referido processo"
+      },{ "codigo":5904,"descricao":"Remessa para venda fora do estabelecimento"
+      },{ "codigo":5905,"descricao":"Remessa para depósito fechado ou armazém geral"
+      },{ "codigo":5906,"descricao":"Retorno de mercadoria depositada em depósito fechado ou armazém geral"
+      },{ "codigo":5907,"descricao":"Retorno simbólico de mercadoria depositada em depósito fechado ou armazém geral"
+      },{ "codigo":5908,"descricao":"Remessa de bem por conta de contrato de comodato"
+      },{ "codigo":5909,"descricao":"Retorno de bem recebido por conta de contrato de comodato"
+      },{ "codigo":5910,"descricao":"Remessa em bonificação, doação ou brinde"
+      },{ "codigo":5911,"descricao":"Remessa de amostra grátis"
+      },{ "codigo":5912,"descricao":"Remessa de mercadoria ou bem para demonstração"
+      },{ "codigo":5913,"descricao":"Retorno de mercadoria ou bem recebido para demonstração"
+      },{ "codigo":5914,"descricao":"Remessa de mercadoria ou bem para exposição ou feira"
+      },{ "codigo":5915,"descricao":"Remessa de mercadoria ou bem para conserto ou reparo"
+      },{ "codigo":5916,"descricao":"Retorno de mercadoria ou bem recebido para conserto ou reparo"
+      },{ "codigo":5917,"descricao":"Remessa de mercadoria em consignação mercantil ou industrial"
+      },{ "codigo":5918,"descricao":"Devolução de mercadoria recebida em consignação mercantil ou industrial"
+      },{ "codigo":5919,"descricao":"Devolução simbólica de mercadoria vendida ou utilizada em processo industrial, recebida anteriormente em consignação mercantil ou industrial"
+      },{ "codigo":5920,"descricao":"Remessa de vasilhame ou sacaria"
+      },{ "codigo":5921,"descricao":"Devolução de vasilhame ou sacaria"
+      },{ "codigo":5922,"descricao":"Lançamento efetuado a título de simples faturamento decorrente de venda para entrega futura"
+      },{ "codigo":5923,"descricao":"Remessa de mercadoria por conta e ordem de terceiros, em venda à ordem"
+      },{ "codigo":5924,"descricao":"Remessa para industrialização por conta e ordem do adquirente da mercadoria, quando esta não transitar pelo estabelecimento do adquirente"
+      },{ "codigo":5925,"descricao":"Retorno de mercadoria recebida para industrialização por conta e ordem do adquirente da mercadoria, quando aquela não transitar pelo estabelecimento do adquirente"
+      },{ "codigo":5926,"descricao":"Lançamento efetuado a título de reclassificação de mercadoria decorrente de formação de kit ou de sua desagregação"
+      },{ "codigo":5927,"descricao":"Lançamento efetuado a título de baixa de estoque decorrente de perda, roubo ou deterioração"
+      },{ "codigo":5928,"descricao":"Lançamento efetuado a título de baixa de estoque decorrente do encerramento da atividade da empresa"
+      },{ "codigo":5929,"descricao":"Lançamento efetuado em decorrência de emissão de documento fiscal relativo a operação ou prestação também registrada em equipamento Emissor de Cupom Fiscal - ECF"
+      },{ "codigo":5931,"descricao":"Lançamento efetuado em decorrência da responsabilidade de retenção do imposto por substituição tributária, atribuída ao remetente ou alienante da mercadoria, pelo serviço de transporte realizado por transportador autônomo ou por transportador não inscrito na unidade da Federação onde iniciado o serviço"
+      },{ "codigo":5932,"descricao":"Prestação de serviço de transporte iniciada em unidade da Federação diversa daquela onde inscrito o prestador"
+      },{ "codigo":5933,"descricao":"Prestação de serviço tributado pelo ISSQN"
+      },{ "codigo":5949,"descricao":"Outra saída de mercadoria ou prestação de serviço não especificado "
+      },{ "codigo":6000,"descricao":"SAÍDAS OU PRESTAÇÕES DE SERVIÇOS PARA OUTROS ESTADOS "
+      },{ "codigo":6100,"descricao":"VENDAS DE PRODUÇÃO PRÓPRIA OU DE TERCEIROS"
+      },{ "codigo":6101,"descricao":"Venda de produção do estabelecimento"
+      },{ "codigo":6102,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros"
+      },{ "codigo":6103,"descricao":"Venda de produção do estabelecimento, efetuada fora do estabelecimento"
+      },{ "codigo":6104,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros, efetuada fora do estabelecimento"
+      },{ "codigo":6105,"descricao":"Venda de produção do estabelecimento que não deva por ele transitar"
+      },{ "codigo":6106,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar"
+      },{ "codigo":6107,"descricao":"Venda de produção do estabelecimento, destinada a não contribuinte"
+      },{ "codigo":6108,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros, destinada a não contribuinte"
+      },{ "codigo":6109,"descricao":"Venda de produção do estabelecimento, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio"
+      },{ "codigo":6110,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio"
+      },{ "codigo":6111,"descricao":"Venda de produção do estabelecimento remetida anteriormente em consignação industrial"
+      },{ "codigo":6112,"descricao":"Venda de mercadoria adquirida ou recebida de Terceiros remetida anteriormente em consignação industrial"
+      },{ "codigo":6113,"descricao":"Venda de produção do estabelecimento remetida anteriormente em consignação mercantil"
+      },{ "codigo":6114,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação mercantil"
+      },{ "codigo":6115,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros, recebida anteriormente em consignação mercantil"
+      },{ "codigo":6116,"descricao":"Venda de produção do estabelecimento originada de encomenda para entrega futura"
+      },{ "codigo":6117,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros, originada de encomenda para entrega futura"
+      },{ "codigo":6118,"descricao":"Venda de produção do estabelecimento entregue ao destinatário por conta e ordem do adquirente originário, em venda à ordem"
+      },{ "codigo":6119,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário por conta e ordem do adquirente originário, em venda à ordem"
+      },{ "codigo":6120,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário pelo vendedor remetente, em venda à ordem"
+      },{ "codigo":6122,"descricao":"Venda de produção do estabelecimento remetida para industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente"
+      },{ "codigo":6123,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros remetida para industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente"
+      },{ "codigo":6124,"descricao":"Industrialização efetuada para outra empresa"
+      },{ "codigo":6125,"descricao":"Industrialização efetuada para outra empresa quando a mercadoria recebida para utilização no processo de industrialização não transitar pelo estabelecimento adquirente da mercadoria"
+      },{ "codigo":6150,"descricao":"TRANSFERÊNCIAS DE PRODUÇÃO PRÓPRIA OU DE TERCEIROS"
+      },{ "codigo":6151,"descricao":"Transferência de produção do estabelecimento"
+      },{ "codigo":6152,"descricao":"Transferência de mercadoria adquirida ou recebida de terceiros"
+      },{ "codigo":6153,"descricao":"Transferência de energia elétrica 6.155 - Transferência de produção do estabelecimento, que não deva por ele transitar"
+      },{ "codigo":6156,"descricao":"Transferência de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar"
+      },{ "codigo":6200,"descricao":"DEVOLUÇÕES DE COMPRAS PARA INDUSTRIALIZAÇÃO, COMERCIALIZAÇÃO OU ANULAÇÕES DE VALORES"
+      },{ "codigo":6201,"descricao":"Devolução de compra para industrialização ou produção rural"
+      },{ "codigo":6202,"descricao":"Devolução de compra para comercialização"
+      },{ "codigo":6205,"descricao":"Anulação de valor relativo a aquisição de serviço de comunicação"
+      },{ "codigo":6206,"descricao":"Anulação de valor relativo a aquisição de serviço de transporte"
+      },{ "codigo":6207,"descricao":"Anulação de valor relativo à compra de energia elétrica"
+      },{ "codigo":6208,"descricao":"Devolução de mercadoria recebida em transferência para industrialização ou produção rural"
+      },{ "codigo":6209,"descricao":"Devolução de mercadoria recebida em transferência para comercialização"
+      },{ "codigo":6210,"descricao":"Devolução de compra para utilização na prestação de serviço "
+      },{ "codigo":6250,"descricao":"VENDAS DE ENERGIA ELÉTRICA"
+      },{ "codigo":6251,"descricao":"Venda de energia elétrica para distribuição ou comercialização"
+      },{ "codigo":6252,"descricao":"Venda de energia elétrica para estabelecimento industrial"
+      },{ "codigo":6253,"descricao":"Venda de energia elétrica para estabelecimento comercial"
+      },{ "codigo":6254,"descricao":"Venda de energia elétrica para estabelecimento prestador de serviço de transporte"
+      },{ "codigo":6255,"descricao":"Venda de energia elétrica para estabelecimento prestador de serviço de comunicação"
+      },{ "codigo":6256,"descricao":"Venda de energia elétrica para estabelecimento de produtor rural"
+      },{ "codigo":6257,"descricao":"Venda de energia elétrica para consumo por demanda contratada"
+      },{ "codigo":6258,"descricao":"Venda de energia elétrica a não contribuinte"
+      },{ "codigo":6300,"descricao":"PRESTAÇÕES DE SERVIÇOS DE COMUNICAÇÃO"
+      },{ "codigo":6301,"descricao":"Prestação de serviço de comunicação para execução de serviço da mesma natureza"
+      },{ "codigo":6302,"descricao":"Prestação de serviço de comunicação a estabelecimento industrial"
+      },{ "codigo":6303,"descricao":"Prestação de serviço de comunicação a estabelecimento comercial"
+      },{ "codigo":6304,"descricao":"Prestação de serviço de comunicação a estabelecimento de prestador de serviço de transporte"
+      },{ "codigo":6305,"descricao":"Prestação de serviço de comunicação a estabelecimento de geradora ou de distribuidora de energia elétrica"
+      },{ "codigo":6306,"descricao":"Prestação de serviço de comunicação a estabelecimento de produtor rural"
+      },{ "codigo":6307,"descricao":"Prestação de serviço de comunicação a não contribuinte"
+      },{ "codigo":6350,"descricao":"PRESTAÇÕES DE SERVIÇOS DE TRANSPORTE"
+      },{ "codigo":6351,"descricao":"Prestação de serviço de transporte para execução de serviço da mesma natureza"
+      },{ "codigo":6352,"descricao":"Prestação de serviço de transporte a estabelecimento industrial"
+      },{ "codigo":6353,"descricao":"Prestação de serviço de transporte a estabelecimento comercial"
+      },{ "codigo":6354,"descricao":"Prestação de serviço de transporte a estabelecimento de prestador de serviço de comunicação"
+      },{ "codigo":6355,"descricao":"Prestação de serviço de transporte a estabelecimento de geradora ou de distribuidora de energia elétrica"
+      },{ "codigo":6356,"descricao":"Prestação de serviço de transporte a estabelecimento de produtor rural"
+      },{ "codigo":6357,"descricao":"Prestação de serviço de transporte a não contribuinte"
+      },{ "codigo":6359,"descricao":"Prestação de serviço de transporte a contribuinte ou a não contribuinte quando a mercadoria transportada está dispensada de emissão de nota fiscal"
+      },{ "codigo":6400,"descricao":"SAÍDAS DE MERCADORIAS SUJEITAS AO REGIME DE SUBSTITUIÇÃO TRIBUTÁRIA"
+      },{ "codigo":6401,"descricao":"Venda de produção do estabelecimento em operação com produto sujeito ao regime de substituição tributária, na condição de contribuinte substituto"
+      },{ "codigo":6402,"descricao":"Venda de produção do estabelecimento de produto sujeito ao regime de substituição tributária, em operação entre contribuintes substitutos do mesmo produto"
+      },{ "codigo":6403,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária, na condição de contribuinte substituto"
+      },{ "codigo":6404,"descricao":"Venda de mercadoria sujeita ao regime de substituição tributária, cujo imposto já tenha sido retido anteriormente"
+      },{ "codigo":6408,"descricao":"Transferência de produção do estabelecimento em operação com produto sujeito ao regime de substituição tributária"
+      },{ "codigo":6409,"descricao":"Transferência de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":6410,"descricao":"Devolução de compra para industrialização ou produção rural em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":6411,"descricao":"Devolução de compra para comercialização em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":6412,"descricao":"Devolução de bem do ativo imobilizado, em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":6413,"descricao":"Devolução de mercadoria destinada ao uso ou consumo, em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":6414,"descricao":"Remessa de produção do estabelecimento para venda fora do estabelecimento em operação com produto sujeito ao regime de substituição tributária"
+      },{ "codigo":6415,"descricao":"Remessa de mercadoria adquirida ou recebida de terceiros para venda fora do estabelecimento, em operação com mercadoria sujeita ao regime de substituição tributária"
+      },{ "codigo":6500,"descricao":"REMESSAS COM FIM ESPECÍFICO DE EXPORTAÇÃO E EVENTUAIS DEVOLUÇÕES"
+      },{ "codigo":6501,"descricao":"Remessa de produção do estabelecimento, com fim específico de exportação"
+      },{ "codigo":6502,"descricao":"Remessa de mercadoria adquirida ou recebida de terceiros, com fim específico de exportação"
+      },{ "codigo":6503,"descricao":"Devolução de mercadoria recebida com fim específico de exportação"
+      },{ "codigo":6504,"descricao":"Remessa de mercadorias para formação de lote de exportação, de produtos industrializados ou produzidos pelo próprio estabelecimento"
+      },{ "codigo":6505,"descricao":"Remessa de mercadorias, adquiridas ou recebidas de terceiros, para formação de lote de exportação"
+      },{ "codigo":6550,"descricao":"OPERAÇÕES COM BENS DE ATIVO IMOBILIZADO E MATERIAIS PARA USO OU CONSUMO"
+      },{ "codigo":6551,"descricao":"Venda de bem do ativo imobilizado"
+      },{ "codigo":6552,"descricao":"Transferência de bem do ativo imobilizado"
+      },{ "codigo":6553,"descricao":"Devolução de compra de bem para o ativo imobilizado"
+      },{ "codigo":6554,"descricao":"Remessa de bem do ativo imobilizado para uso fora do estabelecimento"
+      },{ "codigo":6555,"descricao":"Devolução de bem do ativo imobilizado de terceiro, recebido para uso no estabelecimento"
+      },{ "codigo":6556,"descricao":"Devolução de compra de material de uso ou consumo"
+      },{ "codigo":6557,"descricao":"Transferência de material de uso ou consumo"
+      },{ "codigo":6600,"descricao":"CRÉDITOS E RESSARCIMENTOS DE ICMS"
+      },{ "codigo":6603,"descricao":"Ressarcimento de ICMS retido por substituição tributária"
+      },{ "codigo":6651,"descricao":"Venda de combustível ou lubrificante de produção do estabelecimento destinado à industrialização subseqüente"
+      },{ "codigo":6652,"descricao":"Venda de combustível ou lubrificante de produção do estabelecimento destinado à comercialização"
+      },{ "codigo":6653,"descricao":"Venda de combustível ou lubrificante de produção do estabelecimento destinado a consumidor ou usuário final"
+      },{ "codigo":6654,"descricao":"Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado à industrialização subseqüente"
+      },{ "codigo":6655,"descricao":"Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado à comercialização"
+      },{ "codigo":6656,"descricao":"Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado a consumidor ou usuário final"
+      },{ "codigo":6657,"descricao":"Remessa de combustível ou lubrificante adquirido ou recebido de terceiros para venda fora do estabelecimento"
+      },{ "codigo":6658,"descricao":"Transferência de combustível ou lubrificante de produção do estabelecimento"
+      },{ "codigo":6659,"descricao":"Transferência de combustível ou lubrificante adquirido ou recebido de terceiro"
+      },{ "codigo":6660,"descricao":"Devolução de compra de combustível ou lubrificante adquirido para industrialização subseqüente"
+      },{ "codigo":6661,"descricao":"Devolução de compra de combustível ou lubrificante adquirido para comercialização"
+      },{ "codigo":6662,"descricao":"Devolução de compra de combustível ou lubrificante adquirido por consumidor ou usuário final"
+      },{ "codigo":6663,"descricao":"Remessa para armazenagem de combustível ou lubrificante"
+      },{ "codigo":6664,"descricao":"Retorno de combustível ou lubrificante recebido para armazenagem"
+      },{ "codigo":6665,"descricao":"Retorno simbólico de combustível ou lubrificante recebido para armazenagem"
+      },{ "codigo":6666,"descricao":"Remessa por conta e ordem de terceiros de combustível ou lubrificante recebido para armazenagem"
+      },{ "codigo":6900,"descricao":"OUTRAS SAÍDAS DE MERCADORIAS OU PRESTAÇÕES DE SERVIÇOS"
+      },{ "codigo":6901,"descricao":"Remessa para industrialização por encomenda"
+      },{ "codigo":6902,"descricao":"Retorno de mercadoria utilizada na industrialização por encomenda"
+      },{ "codigo":6903,"descricao":"Retorno de mercadoria recebida para industrialização e não aplicada no referido processo"
+      },{ "codigo":6904,"descricao":"Remessa para venda fora do estabelecimento"
+      },{ "codigo":6905,"descricao":"Remessa para depósito fechado ou armazém geral"
+      },{ "codigo":6906,"descricao":"Retorno de mercadoria depositada em depósito fechado ou armazém geral"
+      },{ "codigo":6907,"descricao":"Retorno simbólico de mercadoria depositada em depósito fechado ou armazém geral"
+      },{ "codigo":6908,"descricao":"Remessa de bem por conta de contrato de comodato"
+      },{ "codigo":6909,"descricao":"Retorno de bem recebido por conta de contrato de comodato"
+      },{ "codigo":6910,"descricao":"Remessa em bonificação, doação ou brinde"
+      },{ "codigo":6911,"descricao":"Remessa de amostra grátis"
+      },{ "codigo":6912,"descricao":"Remessa de mercadoria ou bem para demonstração 6.913 - Retorno de mercadoria ou bem recebido para demonstração"
+      },{ "codigo":6914,"descricao":"Remessa de mercadoria ou bem para exposição ou feira"
+      },{ "codigo":6915,"descricao":"Remessa de mercadoria ou bem para conserto ou reparo"
+      },{ "codigo":6916,"descricao":"Retorno de mercadoria ou bem recebido para conserto ou reparo"
+      },{ "codigo":6917,"descricao":"Remessa de mercadoria em consignação mercantil ou industrial"
+      },{ "codigo":6918,"descricao":"Devolução de mercadoria recebida em consignação mercantil ou industrial"
+      },{ "codigo":6919,"descricao":"Devolução simbólica de mercadoria vendida ou utilizada em processo industrial, recebida anteriormente em consignação mercantil ou industrial"
+      },{ "codigo":6920,"descricao":"Remessa de vasilhame ou sacaria"
+      },{ "codigo":6921,"descricao":"Devolução de vasilhame ou sacaria"
+      },{ "codigo":6922,"descricao":"Lançamento efetuado a título de simples faturamento decorrente de venda para entrega futura"
+      },{ "codigo":6923,"descricao":"Remessa de mercadoria por conta e ordem de terceiros, em venda à ordem"
+      },{ "codigo":6924,"descricao":"Remessa para industrialização por conta e ordem do adquirente da mercadoria, quando esta não transitar pelo estabelecimento do adquirente"
+      },{ "codigo":6925,"descricao":"Retorno de mercadoria recebida para industrialização por conta e ordem do adquirente da mercadoria, quando aquela não transitar pelo estabelecimento do adquirente"
+      },{ "codigo":6929,"descricao":"Lançamento efetuado em decorrência de emissão de documento fiscal relativo a operação ou prestação também registrada em equipamento Emissor de Cupom Fiscal - ECF"
+      },{ "codigo":6931,"descricao":"Lançamento efetuado em decorrência da responsabilidade de retenção do imposto por substituição tributária, atribuída ao remetente ou alienante da mercadoria, pelo serviço de transporte realizado por transportador autônomo ou por transportador não inscrito na unidade da Federação onde iniciado o serviço"
+      },{ "codigo":6932,"descricao":"Prestação de serviço de transporte iniciada em unidade da Federação diversa daquela onde inscrito o prestador"
+      },{ "codigo":6933,"descricao":"Prestação de serviço tributado pelo ISSQN"
+      },{ "codigo":6949,"descricao":"Outra saída de mercadoria ou prestação de serviço não especificado"
+      },{ "codigo":7000,"descricao":"SAÍDAS OU PRESTAÇÕES DE SERVIÇOS PARA O EXTERIOR "
+      },{ "codigo":7100,"descricao":"VENDAS DE PRODUÇÃO PRÓPRIA OU DE TERCEIROS"
+      },{ "codigo":7101,"descricao":"Venda de produção do estabelecimento"
+      },{ "codigo":7102,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros"
+      },{ "codigo":7105,"descricao":"Venda de produção do estabelecimento, que não deva por ele transitar"
+      },{ "codigo":7106,"descricao":"Venda de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar"
+      },{ "codigo":7127,"descricao":"Venda de produção do estabelecimento sob o regime de drawback "
+      },{ "codigo":7200,"descricao":"DEVOLUÇÕES DE COMPRAS PARA INDUSTRIALIZAÇÃO, COMERCIALIZAÇÃO OU ANULAÇÕES DE VALORES"
+      },{ "codigo":7201,"descricao":"Devolução de compra para industrialização ou produção rural"
+      },{ "codigo":7202,"descricao":"Devolução de compra para comercialização"
+      },{ "codigo":7205,"descricao":"Anulação de valor relativo à aquisição de serviço de comunicação"
+      },{ "codigo":7206,"descricao":"Anulação de valor relativo a aquisição de serviço de transporte"
+      },{ "codigo":7207,"descricao":"Anulação de valor relativo à compra de energia elétrica"
+      },{ "codigo":7210,"descricao":"Devolução de compra para utilização na prestação de serviço"
+      },{ "codigo":7211,"descricao":"Devolução de compras para industrialização sob o regime de drawback "
+      },{ "codigo":7250,"descricao":"VENDAS DE ENERGIA ELÉTRICA"
+      },{ "codigo":7251,"descricao":"Venda de energia elétrica para o exterior "
+      },{ "codigo":7300,"descricao":"PRESTAÇÕES DE SERVIÇOS DE COMUNICAÇÃO"
+      },{ "codigo":7301,"descricao":"Prestação de serviço de comunicação para execução de serviço da mesma natureza "
+      },{ "codigo":7350,"descricao":"PRESTAÇÕES DE SERVIÇO DE TRANSPORTE"
+      },{ "codigo":7358,"descricao":"Prestação de serviço de transporte "
+      },{ "codigo":7500,"descricao":"EXPORTAÇÃO DE MERCADORIAS RECEBIDAS COM FIM ESPECÍFICO DE EXPORTAÇÃO"
+      },{ "codigo":7501,"descricao":"Exportação de mercadorias recebidas com fim específico de exportação"
+      },{ "codigo":7550,"descricao":"OPERAÇÕES COM BENS DE ATIVO IMOBILIZADO E MATERIAIS PARA USO OU CONSUMO"
+      },{ "codigo":7551,"descricao":"Venda de bem do ativo imobilizado"
+      },{ "codigo":7553,"descricao":"Devolução de compra de bem para o ativo imobilizado"
+      },{ "codigo":7556,"descricao":"Devolução de compra de material de uso ou consumo"
+      },{ "codigo":7651,"descricao":"Venda de combustível ou lubrificante de produção do estabelecimento"
+      },{ "codigo":7654,"descricao":"Venda de combustível ou lubrificante adquirido ou recebido de terceiros"
+      },{ "codigo":7900,"descricao":"OUTRAS SAÍDAS DE MERCADORIAS OU PRESTAÇÕES DE SERVIÇOS"
+      },{ "codigo":7930,"descricao":"Lançamento efetuado atítulo de devolução de bem cuja entrada tenha ocorrido sob amparo de regime especial aduaneiro de admissão temporária"
+      },{ "codigo":7949,"descricao":"Outra saída de mercadoria ou prestação de serviço não especificado"}
+  ],
+
+  "secao": [
     {
-      "id": 1,
-      "name": "Coca-Cola"
-    },
+    "_id": "5f63788ab275a61678858300",
+    "num": "1",
+    "numAlpha": "I",
+    "nome": "Seção I",
+    "descricao": "ANIMAIS VIVOS E PRODUTOS DO REINO ANIMAL"
+  },{
+    "_id": "5f63788ab275a61678858301",
+    "num": "2",
+    "numAlpha": "II",
+    "nome": "Seção II",
+    "descricao": "PRODUTOS DO REINO VEGETAL"
+  },{
+    "_id": "5f63788ab275a61678858302",
+    "num": "3",
+    "numAlpha": "III",
+    "nome": "Seção III",
+    "descricao": "GORDURAS E ÓLEOS ANIMAIS OU VEGETAIS; PRODUTOS DA SUA DISSOCIAÇÃO; GORDURAS ALIMENTÍCIAS ELABORADAS; CERAS DE ORIGEM ANIMAL OU VEGETAL"
+  },{
+    "_id": "5f63788ab275a61678858303",
+    "num": "4",
+    "numAlpha": "IV",
+    "nome": "Seção IV",
+    "descricao": "PRODUTOS DAS INDÚSTRIAS ALIMENTARES; BEBIDAS, LÍQUIDOS ALCOÓLICOS E VINAGRES; TABACO E SEUS SUCEDÂNEOS MANUFATURADOS"
+  },{
+    "_id": "5f63788ab275a61678858304",
+    "num": "5",
+    "numAlpha": "V",
+    "nome": "Seção V",
+    "descricao": "PRODUTOS MINERAIS"
+  },{
+    "_id": "5f63788ab275a61678858305",
+    "num": "6",
+    "numAlpha": "VI",
+    "nome": "Seção VI",
+    "descricao": "PRODUTOS DAS INDÚSTRIAS QUÍMICAS OU DAS INDÚSTRIAS CONEXAS"
+  },{
+    "_id": "5f63788ab275a61678858306",
+    "num": "7",
+    "numAlpha": "VII",
+    "nome": "Seção VII",
+    "descricao": "PLÁSTICO E SUAS OBRAS; BORRACHA E SUAS OBRAS"
+  },{
+    "_id": "5f63788ab275a61678858307",
+    "num": "8",
+    "numAlpha": "VIII",
+    "nome": "Seção VIII",
+    "descricao": "PELES, COUROS, PELES COM PELO E OBRAS DESTAS MATÉRIAS; ARTIGOS DE CORREEIRO OU DE SELEIRO; ARTIGOS DE VIAGEM, BOLSAS E ARTIGOS SEMELHANTES; OBRAS DE TRIPA"
+  },{
+    "_id": "5f63788ab275a61678858308",
+    "num": "9",
+    "numAlpha": "IX",
+    "nome": "Seção IX",
+    "descricao": "MADEIRA, CARVÃO VEGETAL E OBRAS DE MADEIRA; CORTIÇA E SUAS OBRAS; OBRAS DE ESPARTARIA OU DE CESTARIA"
+  },{
+    "_id": "5f63788ab275a61678858309",
+    "num": "10",
+    "numAlpha": "X",
+    "nome": "Seção X",
+    "descricao": "PASTAS DE MADEIRA OU DE OUTRAS MATÉRIAS FIBROSAS CELULÓSICAS; PAPEL OU CARTÃO PARA RECICLAR (DESPERDÍCIOS E APARAS); PAPEL OU CARTÃO E SUAS OBRAS"
+  },{
+    "_id": "5f63788ab275a6167885830a",
+    "num": "11",
+    "numAlpha": "XI",
+    "nome": "Seção XI",
+    "descricao": "MATÉRIAS TÊXTEIS E SUAS OBRAS"
+  },{
+    "_id": "5f63788ab275a6167885830b",
+    "num": "12",
+    "numAlpha": "XII",
+    "nome": "Seção XII",
+    "descricao": "CALÇADO, CHAPÉUS E ARTIGOS DE USO SEMELHANTE, GUARDA,CHUVAS, GUARDA,SÓIS, BENGALAS, CHICOTES, E SUAS PARTES; PENAS PREPARADAS E SUAS OBRAS; FLORES ARTIFICIAIS; OBRAS DE CABELO"
+  },{
+    "_id": "5f63788ab275a6167885830c",
+    "num": "13",
+    "numAlpha": "XIII",
+    "nome": "Seção XIII",
+    "descricao": "OBRAS DE PEDRA, GESSO, CIMENTO, AMIANTO, MICA OU DE MATÉRIAS SEMELHANTES; PRODUTOS CERÂMICOS; VIDRO E SUAS OBRAS"
+  },{
+    "_id": "5f63788ab275a6167885830d",
+    "num": "14",
+    "numAlpha": "XIV",
+    "nome": "Seção XIV",
+    "descricao": "PÉROLAS NATURAIS OU CULTIVADAS, PEDRAS PRECIOSAS OU SEMIPRECIOSAS E SEMELHANTES, METAIS PRECIOSOS, METAIS FOLHEADOS OU CHAPEADOS DE METAIS PRECIOSOS (PLAQUÊ), E SUAS OBRAS; BIJUTERIAS; MOEDAS"
+  },{
+    "_id": "5f63788ab275a6167885830e",
+    "num": "15",
+    "numAlpha": "XV",
+    "nome": "Seção XV",
+    "descricao": "METAIS COMUNS E SUAS OBRAS"
+  },{
+    "_id": "5f63788ab275a6167885830f",
+    "num": "16",
+    "numAlpha": "XVI",
+    "nome": "Seção XVI",
+    "descricao": "MÁQUINAS E APARELHOS, MATERIAL ELÉTRICO, E SUAS PARTES; APARELHOS DE GRAVAÇÃO OU DE REPRODUÇÃO DE SOM, APARELHOS DE GRAVAÇÃO OU DE REPRODUÇÃO DE IMAGENS E DE SOM EM TELEVISÃO, E SUAS PARTES E ACESSÓRIOS"
+  },{
+    "_id": "5f63788ab275a61678858310",
+    "num": "17",
+    "numAlpha": "XVII",
+    "nome": "Seção XVII",
+    "descricao": "MATERIAL DE TRANSPORTE"
+  },{
+    "_id": "5f63788ab275a61678858311",
+    "num": "18",
+    "numAlpha": "XVIII",
+    "nome": "Seção XVIII",
+    "descricao": "INSTRUMENTOS E APARELHOS DE ÓPTICA, DE FOTOGRAFIA, DE CINEMATOGRAFIA, DE MEDIDA, DE CONTROLE OU DE PRECISÃO; INSTRUMENTOS E APARELHOS MÉDICO,CIRÚRGICOS; ARTIGOS DE RELOJOARIA; INSTRUMENTOS MUSICAIS; SUAS PARTES E ACESSÓRIOS"
+  },{
+    "_id": "5f63788ab275a61678858312",
+    "num": "19",
+    "numAlpha": "XIX",
+    "nome": "Seção XIX",
+    "descricao": "ARMAS E MUNIÇÕES; SUAS PARTES E ACESSÓRIOS"
+  },{
+    "_id": "5f63788ab275a61678858313",
+    "num": "20",
+    "numAlpha": "XX",
+    "nome": "Seção XX",
+    "descricao": "MERCADORIAS E PRODUTOS DIVERSOS"
+  },{
+    "_id": "5f63788ab275a61678858314",
+    "num": "21",
+    "numAlpha": "XXI",
+    "nome": "Seção XXI",
+    "descricao": "OBJETOS DE ARTE, DE COLEÇÃO E ANTIGUIDADES"
+  }],
+
+  "capitulo" : [
     {
-      "id": 2,
-      "name": "Fruki Guarana"
-    },
-    {
-      "name": "Pepsi",
-      "id": 3
-    }
-  ]
+    "_id": "5f637b8bb275a61678858315",
+    "num": "1",
+    "numAlpha": "01",
+    "numSecao": "1",
+    "nome": "Capítulo 01",
+    "descricao": "Animais vivos."
+  },{
+    "_id": "5f637b8bb275a61678858316",
+    "num": "2",
+    "numAlpha": "02",
+    "numSecao": "1",
+    "nome": "Capítulo 02",
+    "descricao": "Carnes e miudezas, comestíveis."
+  },{
+    "_id": "5f637b8bb275a61678858317",
+    "num": "3",
+    "numAlpha": "03",
+    "numSecao": "1",
+    "nome": "Capítulo 03",
+    "descricao": "Peixes e crustáceos, moluscos e outros invertebrados aquáticos."
+  },{
+    "_id": "5f637b8bb275a61678858318",
+    "num": "4",
+    "numAlpha": "04",
+    "numSecao": "1",
+    "nome": "Capítulo 04",
+    "descricao": "Leite e lacticínios; ovos de aves; mel natural; produtos comestíveis de origem animal, não especificados nem compreendidos noutros Capítulos."
+  },{
+    "_id": "5f637b8bb275a61678858319",
+    "num": "5",
+    "numAlpha": "05",
+    "numSecao": "1",
+    "nome": "Capítulo 05",
+    "descricao": "Outros produtos de origem animal, não especificados nem compreendidos noutros Capítulos."
+  },{
+    "_id": "5f6381e6b275a6167885831a",
+    "num": "6",
+    "numAlpha": "06",
+    "numSecao": "2",
+    "nome": "Capítulo 06",
+    "descricao": "Plantas vivas e produtos de floricultura."
+  },{
+    "_id": "5f6381e6b275a6167885831b",
+    "num": "7",
+    "numAlpha": "07",
+    "numSecao": "2",
+    "nome": "Capítulo 07",
+    "descricao": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis."
+  },{
+    "_id": "5f6381e6b275a6167885831c",
+    "num": "8",
+    "numAlpha": "08",
+    "numSecao": "2",
+    "nome": "Capítulo 08",
+    "descricao": "Fruta; cascas de citros (citrinos*) e de melões."
+  },{
+    "_id": "5f6381e6b275a6167885831d",
+    "num": "9",
+    "numAlpha": "09",
+    "numSecao": "2",
+    "nome": "Capítulo 09",
+    "descricao": "Café, chá, mate e especiarias."
+  },{
+    "_id": "5f6381e6b275a6167885831e",
+    "num": "10",
+    "numAlpha": "10",
+    "numSecao": "2",
+    "nome": "Capítulo 10",
+    "descricao": "Cereais."
+  },{
+    "_id": "5f6381e6b275a6167885831f",
+    "num": "11",
+    "numAlpha": "11",
+    "numSecao": "2",
+    "nome": "Capítulo 11",
+    "descricao": "Produtos da indústria de moagem; malte; amidos e féculas; inulina; glúten de trigo."
+  },{
+    "_id": "5f6381e6b275a61678858320",
+    "num": "12",
+    "numAlpha": "12",
+    "numSecao": "2",
+    "nome": "Capítulo 12",
+    "descricao": "Sementes e frutos oleaginosos; grãos, sementes e frutos diversos; plantas industriais ou medicinais; palhas e forragens."
+  },{
+    "_id": "5f6381e6b275a61678858321",
+    "num": "13",
+    "numAlpha": "13",
+    "numSecao": "2",
+    "nome": "Capítulo 13",
+    "descricao": "Gomas, resinas e outros sucos e extratos vegetais."
+  },{
+    "_id": "5f6381e6b275a61678858322",
+    "num": "14",
+    "numAlpha": "14",
+    "numSecao": "2",
+    "nome": "Capítulo 14",
+    "descricao": "Matérias para entrançar e outros produtos de origem vegetal, não especificados nem compreendidos noutros Capítulos."
+  },{
+    "_id": "5f63826eb275a61678858323",
+    "num": "15",
+    "numAlpha": "15",
+    "numSecao": "3",
+    "nome": "Capítulo 15",
+    "descricao": "Gorduras e óleos animais ou vegetais; produtos da sua dissociação; gorduras alimentícias elaboradas; ceras de origem animal ou vegetal."
+  },{
+    "_id": "5f638e49b275a6167885832d",
+    "num": "16",
+    "numAlpha": "16",
+    "numSecao": "4",
+    "nome": "Capítulo 16",
+    "descricao": "Preparações de carne, de peixes ou de crustáceos, de moluscos ou de outros invertebrados aquáticos."
+  },{
+    "_id": "5f638e49b275a6167885832e",
+    "num": "17",
+    "numAlpha": "17",
+    "numSecao": "4",
+    "nome": "Capítulo 17",
+    "descricao": "Açúcares e produtos de confeitaria."
+  },{
+    "_id": "5f638e49b275a6167885832f",
+    "num": "18",
+    "numAlpha": "18",
+    "numSecao": "4",
+    "nome": "Capítulo 18",
+    "descricao": "Cacau e suas preparações."
+  },{
+    "_id": "5f638e49b275a61678858330",
+    "num": "19",
+    "numAlpha": "19",
+    "numSecao": "4",
+    "nome": "Capítulo 19",
+    "descricao": "Preparações à base de cereais, farinhas, amidos, féculas ou leite; produtos de pastelaria."
+  },{
+    "_id": "5f638e49b275a61678858331",
+    "num": "20",
+    "numAlpha": "20",
+    "numSecao": "4",
+    "nome": "Capítulo 20",
+    "descricao": "Preparações de produtos hortícolas, fruta ou de outras partes de plantas."
+  },{
+    "_id": "5f638e49b275a61678858332",
+    "num": "21",
+    "numAlpha": "21",
+    "numSecao": "4",
+    "nome": "Capítulo 21",
+    "descricao": "Preparações alimentícias diversas."
+  },{
+    "_id": "5f638e49b275a61678858333",
+    "num": "22",
+    "numAlpha": "22",
+    "numSecao": "4",
+    "nome": "Capítulo 22",
+    "descricao": "Bebidas, líquidos alcoólicos e vinagres."
+  },{
+    "_id": "5f638e49b275a61678858334",
+    "num": "23",
+    "numAlpha": "23",
+    "numSecao": "4",
+    "nome": "Capítulo 23",
+    "descricao": "Resíduos e desperdícios das indústrias alimentares; alimentos preparados para animais."
+  },{
+    "_id": "5f638e49b275a61678858335",
+    "num": "24",
+    "numAlpha": "24",
+    "numSecao": "4",
+    "nome": "Capítulo 24",
+    "descricao": "Tabaco e seus sucedâneos manufaturados."
+  },{
+    "_id": "5f638ef0b275a61678858336",
+    "num": "25",
+    "numAlpha": "25",
+    "numSecao": "5",
+    "nome": "Capítulo 25",
+    "descricao": "Sal; enxofre; terras e pedras; gesso, cal e cimento."
+  },{
+    "_id": "5f638ef0b275a61678858337",
+    "num": "26",
+    "numAlpha": "26",
+    "numSecao": "5",
+    "nome": "Capítulo 26",
+    "descricao": "Minérios, escórias e cinzas."
+  },{
+    "_id": "5f638ef0b275a61678858338",
+    "num": "27",
+    "numAlpha": "27",
+    "numSecao": "5",
+    "nome": "Capítulo 27",
+    "descricao": "Combustíveis minerais, óleos minerais e produtos da sua destilação; matérias betuminosas; ceras minerais."
+  },{
+    "_id": "5f639155b275a61678858339",
+    "num": "28",
+    "numAlpha": "28",
+    "numSecao": "6",
+    "nome": "Capítulo 28",
+    "descricao": "Produtos químicos inorgânicos; compostos inorgânicos ou orgânicos de metais preciosos, de elementos radioativos, de metais das terras raras ou de isótopos."
+  },{
+    "_id": "5f639155b275a6167885833a",
+    "num": "29",
+    "numAlpha": "29",
+    "numSecao": "6",
+    "nome": "Capítulo 29",
+    "descricao": "Produtos químicos orgânicos."
+  },{
+    "_id": "5f639155b275a6167885833b",
+    "num": "30",
+    "numAlpha": "30",
+    "numSecao": "6",
+    "nome": "Capítulo 30",
+    "descricao": "Produtos farmacêuticos."
+  },{
+    "_id": "5f639155b275a6167885833c",
+    "num": "31",
+    "numAlpha": "31",
+    "numSecao": "6",
+    "nome": "Capítulo 31",
+    "descricao": "Adubos (fertilizantes)."
+  },{
+    "_id": "5f639155b275a6167885833d",
+    "num": "32",
+    "numAlpha": "32",
+    "numSecao": "6",
+    "nome": "Capítulo 32",
+    "descricao": "Extratos tanantes e tintoriais; taninos e seus derivados; pigmentos e outras matérias corantes; tintas e vernizes; mástiques; tintas de escrever."
+  },{
+    "_id": "5f639155b275a6167885833e",
+    "num": "33",
+    "numAlpha": "33",
+    "numSecao": "6",
+    "nome": "Capítulo 33",
+    "descricao": "Óleos essenciais e resinoides; produtos de perfumaria ou de toucador preparados e preparações cosméticas."
+  },{
+    "_id": "5f639155b275a6167885833f",
+    "num": "34",
+    "numAlpha": "34",
+    "numSecao": "6",
+    "nome": "Capítulo 34",
+    "descricao": "Sabões, agentes orgânicos de superfície, preparações para lavagem, preparações lubrificantes, ceras artificiais, ceras preparadas, produtos de conservação e limpeza, velas e artigos semelhantes, massas ou pastas para modelar, 'ceras para dentistas' e composições para dentistas à base de gesso."
+  },{
+    "_id": "5f639155b275a61678858340",
+    "num": "35",
+    "numAlpha": "35",
+    "numSecao": "6",
+    "nome": "Capítulo 35",
+    "descricao": "Matérias albuminoides; produtos à base de amidos ou de féculas modificados; colas; enzimas."
+  },{
+    "_id": "5f639155b275a61678858341",
+    "num": "36",
+    "numAlpha": "36",
+    "numSecao": "6",
+    "nome": "Capítulo 36",
+    "descricao": "Pólvoras e explosivos; artigos de pirotecnia; fósforos; ligas pirofóricas; matérias inflamáveis."
+  },{
+    "_id": "5f639155b275a61678858342",
+    "num": "37",
+    "numAlpha": "37",
+    "numSecao": "6",
+    "nome": "Capítulo 37",
+    "descricao": "Produtos para fotografia e cinematografia."
+  },{
+    "_id": "5f639155b275a61678858343",
+    "num": "38",
+    "numAlpha": "38",
+    "numSecao": "6",
+    "nome": "Capítulo 38",
+    "descricao": "Produtos diversos das indústrias químicas."
+  },{
+    "_id": "5f639217b275a61678858344",
+    "num": "39",
+    "numAlpha": "39",
+    "numSecao": "7",
+    "nome": "Capítulo 39",
+    "descricao": "Plástico e suas obras."
+  },{
+    "_id": "5f639217b275a61678858345",
+    "num": "40",
+    "numAlpha": "40",
+    "numSecao": "7",
+    "nome": "Capítulo 40",
+    "descricao": "Borracha e suas obras."
+  },{
+    "_id": "5f6392fdb275a61678858346",
+    "num": "41",
+    "numAlpha": "41",
+    "numSecao": "8",
+    "nome": "Capítulo 41",
+    "descricao": "Peles, exceto as peles com pelo, e couros."
+  },{
+    "_id": "5f6392fdb275a61678858347",
+    "num": "42",
+    "numAlpha": "42",
+    "numSecao": "8",
+    "nome": "Capítulo 42",
+    "descricao": "Obras de couro; artigos de correeiro ou de seleiro; artigos de viagem, bolsas e artigos semelhantes; obras de tripa."
+  },{
+    "_id": "5f6392fdb275a61678858348",
+    "num": "43",
+    "numAlpha": "43",
+    "numSecao": "8",
+    "nome": "Capítulo 43",
+    "descricao": "Peles com pelo e suas obras; peles com pelo artificiais."
+  },{
+    "_id": "5f63938eb275a61678858349",
+    "num": "44",
+    "numAlpha": "44",
+    "numSecao": "9",
+    "nome": "Capítulo 44",
+    "descricao": "Madeira, carvão vegetal e obras de madeira."
+  },{
+    "_id": "5f63938eb275a6167885834a",
+    "num": "45",
+    "numAlpha": "45",
+    "numSecao": "9",
+    "nome": "Capítulo 45",
+    "descricao": "Cortiça e suas obras."
+  },{
+    "_id": "5f63938eb275a6167885834b",
+    "num": "46",
+    "numAlpha": "46",
+    "numSecao": "9",
+    "nome": "Capítulo 46",
+    "descricao": "Obras de espartaria ou de cestaria."
+  },{
+    "_id": "5f639440b275a6167885834c",
+    "num": "47",
+    "numAlpha": "47",
+    "numSecao": "10",
+    "nome": "Capítulo 47",
+    "descricao": "Pastas de madeira ou de outras matérias fibrosas celulósicas; papel ou cartão para reciclar (desperdícios e aparas)."
+  },{
+    "_id": "5f639440b275a6167885834d",
+    "num": "48",
+    "numAlpha": "48",
+    "numSecao": "10",
+    "nome": "Capítulo 48",
+    "descricao": "Papel e cartão; obras de pasta de celulose, de papel ou de cartão."
+  },{
+    "_id": "5f639440b275a6167885834e",
+    "num": "49",
+    "numAlpha": "49",
+    "numSecao": "10",
+    "nome": "Capítulo 49",
+    "descricao": "Livros, jornais, gravuras e outros produtos das indústrias gráficas; textos manuscritos ou datilografados, planos e plantas."
+  },{
+    "_id": "5f63962cb275a6167885834f",
+    "num": "50",
+    "numAlpha": "50",
+    "numSecao": "11",
+    "nome": "Capítulo 50",
+    "descricao": "Seda."
+  },{
+    "_id": "5f63962cb275a61678858350",
+    "num": "51",
+    "numAlpha": "51",
+    "numSecao": "11",
+    "nome": "Capítulo 51",
+    "descricao": "Lã, pelos finos ou grosseiros; fios e tecidos de crina."
+  },{
+    "_id": "5f63962cb275a61678858351",
+    "num": "52",
+    "numAlpha": "52",
+    "numSecao": "11",
+    "nome": "Capítulo 52",
+    "descricao": "Algodão."
+  },{
+    "_id": "5f63962cb275a61678858352",
+    "num": "53",
+    "numAlpha": "53",
+    "numSecao": "11",
+    "nome": "Capítulo 53",
+    "descricao": "Outras fibras têxteis vegetais; fios de papel e tecidos de fios de papel."
+  },{
+    "_id": "5f63962cb275a61678858353",
+    "num": "54",
+    "numAlpha": "54",
+    "numSecao": "11",
+    "nome": "Capítulo 54",
+    "descricao": "Filamentos sintéticos ou artificiais; lâminas e formas semelhantes de matérias têxteis sintéticas ou artificiais."
+  },{
+    "_id": "5f63962cb275a61678858354",
+    "num": "55",
+    "numAlpha": "55",
+    "numSecao": "11",
+    "nome": "Capítulo 55",
+    "descricao": "Fibras sintéticas ou artificiais, descontínuas."
+  },{
+    "_id": "5f63962cb275a61678858355",
+    "num": "56",
+    "numAlpha": "56",
+    "numSecao": "11",
+    "nome": "Capítulo 56",
+    "descricao": "Pastas (ouates), feltros e falsos tecidos; fios especiais; cordéis, cordas e cabos; artigos de cordoaria."
+  },{
+    "_id": "5f63962cb275a61678858356",
+    "num": "57",
+    "numAlpha": "57",
+    "numSecao": "11",
+    "nome": "Capítulo 57",
+    "descricao": "Tapetes e outros revestimentos para pisos (pavimentos), de matérias têxteis."
+  },{
+    "_id": "5f63962cb275a61678858357",
+    "num": "58",
+    "numAlpha": "58",
+    "numSecao": "11",
+    "nome": "Capítulo 58",
+    "descricao": "Tecidos especiais; tecidos tufados; rendas; tapeçarias; passamanarias; bordados."
+  },{
+    "_id": "5f63962cb275a61678858358",
+    "num": "59",
+    "numAlpha": "59",
+    "numSecao": "11",
+    "nome": "Capítulo 59",
+    "descricao": "Tecidos impregnados, revestidos, recobertos ou estratificados; artigos para usos técnicos de matérias têxteis."
+  },{
+    "_id": "5f63962cb275a61678858359",
+    "num": "60",
+    "numAlpha": "60",
+    "numSecao": "11",
+    "nome": "Capítulo 60",
+    "descricao": "Tecidos de malha."
+  },{
+    "_id": "5f63962cb275a6167885835a",
+    "num": "61",
+    "numAlpha": "61",
+    "numSecao": "11",
+    "nome": "Capítulo 61",
+    "descricao": "Vestuário e seus acessórios, de malha."
+  },{
+    "_id": "5f63962cb275a6167885835b",
+    "num": "62",
+    "numAlpha": "62",
+    "numSecao": "11",
+    "nome": "Capítulo 62",
+    "descricao": "Vestuário e seus acessórios, exceto de malha."
+  },{
+    "_id": "5f63962cb275a6167885835c",
+    "num": "63",
+    "numAlpha": "63",
+    "numSecao": "11",
+    "nome": "Capítulo 63",
+    "descricao": "Outros artigos têxteis confeccionados; sortidos; artigos de matérias têxteis e artigos de uso semelhante, usados; trapos."
+  },{
+    "_id": "5f6396ceb275a6167885835d",
+    "num": "64",
+    "numAlpha": "64",
+    "numSecao": "12",
+    "nome": "Capítulo 64",
+    "descricao": "Calçado, polainas e artigos semelhantes; suas partes."
+  },{
+    "_id": "5f6396ceb275a6167885835e",
+    "num": "65",
+    "numAlpha": "65",
+    "numSecao": "12",
+    "nome": "Capítulo 65",
+    "descricao": "Chapéus e artigos de uso semelhante, e suas partes."
+  },{
+    "_id": "5f6396ceb275a6167885835f",
+    "num": "66",
+    "numAlpha": "66",
+    "numSecao": "12",
+    "nome": "Capítulo 66",
+    "descricao": "Guarda-chuvas, sombrinhas, guarda-sóis, bengalas, bengalas-assentos, chicotes, pingalins, e suas partes."
+  },{
+    "_id": "5f6396ceb275a61678858360",
+    "num": "67",
+    "numAlpha": "67",
+    "numSecao": "12",
+    "nome": "Capítulo 67",
+    "descricao": "Penas e penugem preparadas e suas obras; flores artificiais; obras de cabelo."
+  },{
+    "_id": "5f63973bb275a61678858361",
+    "num": "68",
+    "numAlpha": "68",
+    "numSecao": "13",
+    "nome": "Capítulo 68",
+    "descricao": "Obras de pedra, gesso, cimento, amianto, mica ou de matérias semelhantes."
+  },{
+    "_id": "5f63973bb275a61678858362",
+    "num": "69",
+    "numAlpha": "69",
+    "numSecao": "13",
+    "nome": "Capítulo 69",
+    "descricao": "Produtos cerâmicos."
+  },{
+    "_id": "5f63973bb275a61678858363",
+    "num": "70",
+    "numAlpha": "70",
+    "numSecao": "13",
+    "nome": "Capítulo 70",
+    "descricao": "Vidro e suas obras."
+  },{
+    "_id": "5f639798b275a61678858364",
+    "num": "71",
+    "numAlpha": "71",
+    "numSecao": "14",
+    "nome": "Capítulo 71",
+    "descricao": "Pérolas naturais ou cultivadas, pedras preciosas ou semipreciosas e semelhantes, metais preciosos, metais folheados ou chapeados de metais preciosos (plaquê), e suas obras; bijuterias; moedas."
+  },{
+    "_id": "5f63995db275a61678858365",
+    "num": "72",
+    "numAlpha": "72",
+    "numSecao": "15",
+    "nome": "Capítulo 72",
+    "descricao": "Ferro fundido, ferro e aço."
+  },{
+    "_id": "5f63995db275a61678858366",
+    "num": "73",
+    "numAlpha": "73",
+    "numSecao": "15",
+    "nome": "Capítulo 73",
+    "descricao": "Obras de ferro fundido, ferro ou aço."
+  },{
+    "_id": "5f63995db275a61678858367",
+    "num": "74",
+    "numAlpha": "74",
+    "numSecao": "15",
+    "nome": "Capítulo 74",
+    "descricao": "Cobre e suas obras."
+  },{
+    "_id": "5f63995db275a61678858368",
+    "num": "75",
+    "numAlpha": "75",
+    "numSecao": "15",
+    "nome": "Capítulo 75",
+    "descricao": "Níquel e suas obras."
+  },{
+    "_id": "5f63995db275a61678858369",
+    "num": "76",
+    "numAlpha": "76",
+    "numSecao": "15",
+    "nome": "Capítulo 76",
+    "descricao": "Alumínio e suas obras."
+  },{
+    "_id": "5f63995db275a6167885836a",
+    "num": "77",
+    "numAlpha": "77",
+    "numSecao": "15",
+    "nome": "Capítulo 77",
+    "descricao": "(Reservado para uma eventual utilização futura no Sistema Harmonizado)"
+  },{
+    "_id": "5f63995db275a6167885836b",
+    "num": "78",
+    "numAlpha": "78",
+    "numSecao": "15",
+    "nome": "Capítulo 78",
+    "descricao": "Chumbo e suas obras."
+  },{
+    "_id": "5f63995db275a6167885836c",
+    "num": "79",
+    "numAlpha": "79",
+    "numSecao": "15",
+    "nome": "Capítulo 79",
+    "descricao": "Zinco e suas obras."
+  },{
+    "_id": "5f63995db275a6167885836d",
+    "num": "80",
+    "numAlpha": "80",
+    "numSecao": "15",
+    "nome": "Capítulo 80",
+    "descricao": "Estanho e suas obras."
+  },{
+    "_id": "5f63995db275a6167885836e",
+    "num": "81",
+    "numAlpha": "81",
+    "numSecao": "15",
+    "nome": "Capítulo 81",
+    "descricao": "Outros metais comuns; cermets; obras dessas matérias."
+  },{
+    "_id": "5f63995db275a6167885836f",
+    "num": "82",
+    "numAlpha": "82",
+    "numSecao": "15",
+    "nome": "Capítulo 82",
+    "descricao": "Ferramentas, artigos de cutelaria e talheres, e suas partes, de metais comuns."
+  },{
+    "_id": "5f63995db275a61678858370",
+    "num": "83",
+    "numAlpha": "83",
+    "numSecao": "15",
+    "nome": "Capítulo 83",
+    "descricao": "Obras diversas de metais comuns."
+  },{
+    "_id": "5f6399dab275a61678858371",
+    "num": "84",
+    "numAlpha": "84",
+    "numSecao": "16",
+    "nome": "Capítulo 84",
+    "descricao": "Reatores nucleares, caldeiras, máquinas, aparelhos e instrumentos mecânicos, e suas partes."
+  },{
+    "_id": "5f6399dab275a61678858372",
+    "num": "85",
+    "numAlpha": "85",
+    "numSecao": "16",
+    "nome": "Capítulo 85",
+    "descricao": "Máquinas, aparelhos e materiais elétricos, e suas partes; aparelhos de gravação ou de reprodução de som, aparelhos de gravação ou de reprodução de imagens e de som em televisão, e suas partes e acessórios."
+  },{
+    "_id": "5f639a57b275a61678858373",
+    "num": "86",
+    "numAlpha": "86",
+    "numSecao": "17",
+    "nome": "Capítulo 86",
+    "descricao": "Veículos e material para vias férreas ou semelhantes, e suas partes; aparelhos mecânicos (incluindo os eletromecânicos) de sinalização para vias de comunicação."
+  },{
+    "_id": "5f639a57b275a61678858374",
+    "num": "87",
+    "numAlpha": "87",
+    "numSecao": "17",
+    "nome": "Capítulo 87",
+    "descricao": "Veículos automóveis, tratores, ciclos e outros veículos terrestres, suas partes e acessórios."
+  },{
+    "_id": "5f639a57b275a61678858375",
+    "num": "88",
+    "numAlpha": "88",
+    "numSecao": "17",
+    "nome": "Capítulo 88",
+    "descricao": "Aeronaves e aparelhos espaciais, e suas partes."
+  },{
+    "_id": "5f639a57b275a61678858376",
+    "num": "89",
+    "numAlpha": "89",
+    "numSecao": "17",
+    "nome": "Capítulo 89",
+    "descricao": "Embarcações e estruturas flutuantes."
+  },{
+    "_id": "5f639ba8b275a61678858377",
+    "num": "90",
+    "numAlpha": "90",
+    "numSecao": "18",
+    "nome": "Capítulo 90",
+    "descricao": "Instrumentos e aparelhos de óptica, fotografia ou cinematografia, medida, controle ou de precisão; instrumentos e aparelhos médico-cirúrgicos; suas partes e acessórios"
+  },{
+    "_id": "5f639ba8b275a61678858378",
+    "num": "91",
+    "numAlpha": "91",
+    "numSecao": "18",
+    "nome": "Capítulo 91",
+    "descricao": "Aparelhos de relojoaria e suas partes"
+  },{
+    "_id": "5f639ba8b275a61678858379",
+    "num": "92",
+    "numAlpha": "92",
+    "numSecao": "18",
+    "nome": "Capítulo 92",
+    "descricao": "Instrumentos musicais; suas partes e acessórios"
+  },{
+    "_id": "5f639bdbb275a6167885837a",
+    "num": "93",
+    "numAlpha": "93",
+    "numSecao": "19",
+    "nome": "Capítulo 93",
+    "descricao": "Armas e munições; suas partes e acessórios"
+  },{
+    "_id": "5f639c35b275a6167885837b",
+    "num": "94",
+    "numAlpha": "94",
+    "numSecao": "20",
+    "nome": "Capítulo 94",
+    "descricao": "Móveis; mobiliário médico-cirúrgico; colchões, almofadas e semelhantes; aparelhos de iluminação não especificados nem compreendidos em outros Capítulos; anúncios, cartazes ou tabuletas e placas indicadoras luminosos, e artigos semelhantes; construções pré-fabricadas"
+  },{
+    "_id": "5f639c35b275a6167885837c",
+    "num": "95",
+    "numAlpha": "95",
+    "numSecao": "20",
+    "nome": "Capítulo 95",
+    "descricao": "Brinquedos, jogos, artigos para divertimento ou para esporte; suas partes e acessórios"
+  },{
+    "_id": "5f639c35b275a6167885837d",
+    "num": "96",
+    "numAlpha": "96",
+    "numSecao": "20",
+    "nome": "Capítulo 96",
+    "descricao": "Obras diversas"
+  },{
+    "_id": "5f639c70b275a6167885837e",
+    "num": "97",
+    "numAlpha": "97",
+    "numSecao": "21",
+    "nome": "Capítulo 97",
+    "descricao": "Objetos de arte, de coleção e antigüidades"
+  }]
 }

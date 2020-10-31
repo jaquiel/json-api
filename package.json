@@ -1,14 +1,14 @@
 {
-  "name": "json-api",
+  "name": "fical-api",
   "version": "1.0.0",
+  "author": "Jaquiel Paim",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 1234"
+    "start": "json-server --routes routes.json --watch db.json --port 1234"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "dependencies": {
     "json-server": "^0.16.1"
   }

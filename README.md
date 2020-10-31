@@ -1,1 +1,0 @@
-# Fake API builded with json-api module
